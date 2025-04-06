@@ -1,0 +1,2276 @@
+# https://unibest.tech/ llms-full.txt
+
+## Best Uniapp Framework
+[Skip to content](https://unibest.tech/#VPContent)
+
+# unibest
+
+最好的 uniapp 框架
+
+开箱即用，提供舒适开发体验
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/codercup/unibest?logo=github&color=%234d80f0&link=https%3A%2F%2Fgithub.com%2Fcodercup%2Funibest)](https://github.com/codercup/unibest)[![GitHub Repo stars](https://img.shields.io/github/stars/feige996/unibest?logo=github&color=%234d80f0&link=https%3A%2F%2Fgithub.com%2Ffeige996%2Funibest)](https://github.com/feige996/unibest)[![star](https://gitee.com/codercup/unibest/badge/star.svg?theme=gray)](https://gitee.com/codercup/unibest/stargazers)[![GitHub](https://img.shields.io/github/license/feige996/unibest?logo=github)](https://github.com/feige996/unibest)[![npm](https://img.shields.io/npm/dw/create-unibest?logo=npm&link=https%3A%2F%2Fwww.npmjs.com%2Fpackage%2Fcreate-unibest)](https://www.npmjs.com/package/create-unibest)
+
+[介绍](https://unibest.tech/base/1-introduction)
+
+[快速开始](https://unibest.tech/base/2-start)
+
+[🥤 打赏](https://unibest.tech/advanced/rewards/rewards)
+
+[常见问题](https://unibest.tech/base/14-faq)
+
+![unibest](https://unibest.tech/logo.svg)
+
+🎯
+
+## 多平台覆盖
+
+支持 微信小程序、H5、APP 和 支付宝小程序、钉钉小程序、抖音小程序等平台。
+
+⚡️
+
+## Vue3 + Vite5 + Pnpm + TypeScript
+
+Vue3 + Vite5 + Pnpm + TypeScript 最强组合，飞一般的编码体验，同时支持 js 编写
+
+## 拥抱宇宙最强编辑器 VS Code
+
+使用你最熟悉的 VS Code，无需切换编辑器，告别 HBuilderX 糟糕的编码体验
+
+## UnoCSS + UnoCSS Icons
+
+高性能原子化 CSS 引擎 UnoCSS，还有 100000+ 图标为你所用，无需额外引入外链
+
+📦
+
+## 开箱即用的功能和组件
+
+pinia、API自动导入、请求拦截、路由拦截、字体图标、SVG、UI库、多语言、自定义tabbar...
+
+🦾
+
+## 精心配置的代码规范
+
+TypeScript + Prettier + ESLint + Stylelint + husky + lint-staged + commitlint 配置规范
+
+本站总访问量次  本站总访客数人  本文总阅读量次
+
+[粤ICP备2024160998号](https://beian.miit.gov.cn/)
+
+## Uniapp Development Blog
+[Skip to content](https://www.unibest.tech/other/blog#VPContent)
+
+Return to top
+
+# 博客列表 [​](https://www.unibest.tech/other/blog\#%E5%8D%9A%E5%AE%A2%E5%88%97%E8%A1%A8)
+
+`unibest` 相关文章主要发布在 `掘金`，我的 [掘金 unibest 专栏](https://juejin.cn/column/7307183009604894735)。
+
+- [🔥2024 年最好用的 uniapp 开发模板，近一个月 star 数飙升！🔥](https://juejin.cn/post/7329034439408615451)
+- [【unibest】uniapp + vue3 超实用模板](https://juejin.cn/post/7315246744158191666)
+- [【unibest】uniapp + vue3 超实用模板（续）](https://juejin.cn/post/7315461542697500682)
+- [【unibest】uniapp + vue3 超实用模板（终）](https://juejin.cn/post/7321930742400188453)
+- [【unibest】uniapp + vue3 超实用模板（番外篇）](https://juejin.cn/editor/drafts/7315308701051519030)
+
+## Multi-Platform Build Guide
+[Skip to content](https://www.unibest.tech/base/11-build#VPContent)
+
+Return to top
+
+# 运行发布 [​](https://www.unibest.tech/base/11-build\#%E8%BF%90%E8%A1%8C%E5%8F%91%E5%B8%83)
+
+## 运行 [​](https://www.unibest.tech/base/11-build\#%E8%BF%90%E8%A1%8C)
+
+- `h5 平台`： `pnpm dev:h5`（ 或者简单点 `pnpm dev` ），然后浏览器打开 `http://localhost:9000/`。
+
+- `wx 小程序`： `pnpm dev:mp-weixin`，然后打开微信开发者工具，导入本地文件夹，选择本项目的 `dist/dev/mp-weixin` 文件。
+
+- ![alt text](https://www.unibest.tech/assets/11-1.C8NDrjBL.png)
+
+- `APP 平台`： `pnpm dev:app`，然后打开 `HBuilderX`，导入刚刚生成的 `dist/dev/app` 文件夹，选择运行到 `模拟器`( `开发时优先使用` )，或者 `运行到安卓/ios 基座` (真机调试时使用) 。
+
+
+![alt text](https://www.unibest.tech/assets/11-2.uCp95fqP.png)
+
+![alt text](https://www.unibest.tech/assets/11-3.CGKECzRY.png)![alt text](https://www.unibest.tech/assets/11-4.DE9uX9J6.png)
+
+> 如果需要配置其他模拟器，可以参考： [安装模拟器](https://uniapp.dcloud.net.cn/tutorial/run/installSimulator.html)
+
+> 这样操作的话，开发时都会有热更新，开发体验很爽！
+
+## 发布 [​](https://www.unibest.tech/base/11-build\#%E5%8F%91%E5%B8%83)
+
+- `h5 平台`： `pnpm build:h5`，打包后的文件在 `dist/build/h5`，可以放到 web 服务器，如 nginx 运行。如果最终不是放在根目录，可以在 `manifest.config.ts` 文件的 `h5.router.base` 属性进行修改。
+- `wx 小程序`： `pnpm build:mp-weixin`，打包后的文件在 `dist/build/mp-weixin`，然后通过微信开发者工具导入，并点击右上角的“上传”按钮进行上传。
+- `APP 平台`： `pnpm build:app`，然后打开 `HBuilderX`，导入刚刚生成的 `dist/build/app` 文件夹，选择 `发行` \- `原生APP-云打包`。
+
+![alt text](https://www.unibest.tech/assets/11-13.GoNQNSo0.png)![alt text](https://www.unibest.tech/assets/11-5.DLGPBHAM.png)![alt text](https://www.unibest.tech/assets/11-6.D7SlvIcG.png)
+
+> 熟悉原生 APP 开发的开发者也可以使用 `原生APP-本地打包`。
+
+## APP 打包注意事项（上） [​](https://www.unibest.tech/base/11-build\#app-%E6%89%93%E5%8C%85%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-%E4%B8%8A)
+
+很多开发者发现打包失败，或者打包白屏，这里简单说明一下。
+
+1. 重新获取自己的 `AppId`
+
+![alt text](https://www.unibest.tech/assets/11-7.AsGn1B1-.png)
+
+2. 根据上面获取到的 `AppId` 修改 `env/.env` 文件的 `VITE_UNI_APPID` 字段
+
+![alt text](https://www.unibest.tech/assets/11-8.CIdn65CR.png)
+
+3. （可选）云打包如果有出现解析时出问题的，把 `minSdkVersion` 版本改低一点就好了，比如 `21`。（最低 `21`，不能低于 `21`；我模板里面设置的是 `30`）。
+
+![alt text](https://www.unibest.tech/assets/11-9.AexLfCHq.png)
+
+## APP 打包注意事项 （下） [​](https://www.unibest.tech/base/11-build\#app-%E6%89%93%E5%8C%85%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9-%E4%B8%8B)
+
+### `uni-app SDK` 版本 [​](https://www.unibest.tech/base/11-build\#uni-app-sdk-%E7%89%88%E6%9C%AC)
+
+> 特别备注： `2024-05-03`，新的 `base` 模板的 `uni-app SDK` 版本已经升级到 `4.14` 了。
+>
+> ![alt text](https://www.unibest.tech/assets/11-100.S7zWX1wz.png)
+
+`2024-04-14`，新的 `base` 模板的 `uni-app SDK` 版本已经升级到 `4.08` ，记得更新您的 `HBuilderx` 版本。
+
+`"@dcloudio/uni-app": "3.0.0-4000820240401001"` 表示 `uni-app` 为 `3.0.0` 版本，对应的 `HBuilderx` 版本为 `4.08`，后面的 `20240401001` 是发布日期。
+
+> `40008` 第一个数字 `4` 表示主要版本，后面每 `2` 位数为一组，所以代表 `4.0.8`。
+>
+> 类似的， `30812` 代表 `3.8.12` 版本， `30909` 代表 `3.9.9` 版本。
+>
+> 另外，从 `3.99` 开始，后面 2 个小版本合并书写，于是 `3.9.9` 变成 `3.99`， `4.0.8` 变成 `4.08`。
+
+`unibest` 历史用过的 `@dcloudio/uni-app` 版本：
+
+text
+
+```
+"@dcloudio/uni-app": "3.0.0-3081220230817001",  => 3.8.12
+"@dcloudio/uni-app": "3.0.0-3090920231225001",  => 3.99
+"@dcloudio/uni-app": "3.0.0-4000820240401001",  => 4.08
+"@dcloudio/uni-app": "3.0.0-4010420240430001",  => 4.14
+```
+
+![alt text](https://www.unibest.tech/assets/11-10.BDMtgU3D.png)
+
+### `uni-app SDK` 版本匹配 `HBuilderX` [​](https://www.unibest.tech/base/11-build\#uni-app-sdk-%E7%89%88%E6%9C%AC%E5%8C%B9%E9%85%8D-hbuilderx)
+
+> 温馨提示：下面的部分是使用 `uni-app` 版本为 `3.8.12` 时写的文档，适当参考~
+
+本模板使用的是 `3.8.12` 的库版本( `"@dcloudio/uni-app": "3.0.0-3081220230817001",`)，所以尽量使用 `3.8.12` 版本的 `HBuilderX` 来打包，否则可能有未知的风险，出现情况如下图。
+
+> 原来的图不见了，重新补了一张。
+
+![alt text](https://www.unibest.tech/assets/11-11.v5s-2o-3.png)
+
+上图表示您的 `HBuilderX` 版本是 `4.08`，但是代码 `uni-app SDK` (即 `"@dcloudio/uni-app": "3.0.0-4010420240430001"` ) 是 `4.14`，版本不匹配。
+
+- 点击 `ignore`（忽略） 后若可以正常使用，那就不用管。（可选添加如下配置）
+
+json
+
+```
+"app-plus" : { "compatible": { "ignoreVersion": true } }
+```
+
+- 如果出现白屏啥的，请更新您的 `HBuilderX` 到 `uni-app SDK` 相同版本（这里是 `4.14` ）。
+
+### 多个 `HBuilderX` 版本安装 [​](https://www.unibest.tech/base/11-build\#%E5%A4%9A%E4%B8%AA-hbuilderx-%E7%89%88%E6%9C%AC%E5%AE%89%E8%A3%85)
+
+> 温馨提示：下面的部分是使用 `uni-app` 版本为 `3.8.12` 时写的文档，适当参考~
+
+`MAC` 可以安装多个版本的软件，如下图我安装了 `3.8.12` (3.8.12.20230817) 和最新的 `3.99` (3.99.2023122611) 两个版本，平时的项目使用 `3.99`, 打包 `unibest` 的时候使用 `3.8.12`。
+
+![alt text](https://www.unibest.tech/assets/11-12.CWkwnHyx.png)
+
+> `window` 系统也可以同时安装多个 `HBuilderX` 版本，安装时选择安装到不同目录下即可。
+
+## 总结 [​](https://www.unibest.tech/base/11-build\#%E6%80%BB%E7%BB%93)
+
+本文描述了多端的运行和发布，希望对您有帮助。
+
+全文完~
+
+## Uni Plugins Overview
+[Skip to content](https://www.unibest.tech/base/3-plugin#VPContent)
+
+On this page
+
+# uni 插件 [​](https://www.unibest.tech/base/3-plugin\#uni-%E6%8F%92%E4%BB%B6)
+
+## 引言 [​](https://www.unibest.tech/base/3-plugin\#%E5%BC%95%E8%A8%80)
+
+有群友第一次看到 `unibest` 里面 `vue` 文件 `route-block` 这种写法，表示很奇怪，从来没见过！
+
+vue
+
+```
+<route lang="json5">
+{
+  layout: 'demo',
+  style: {
+    navigationBarTitleText: '标题',
+  },
+}
+</route>
+
+<template>
+  <view class="text-green-500">菲鸽，你好，我喜欢你！</view>
+</template>
+```
+
+## uni 插件总览 [​](https://www.unibest.tech/base/3-plugin\#uni-%E6%8F%92%E4%BB%B6%E6%80%BB%E8%A7%88)
+
+哈哈，这个当然是 `uni插件` 的功劳了，具体点是 `@uni-helper/vite-plugin-uni-pages` 插件的功劳，该插件由 `uni-helper` 官方团队开发。
+
+本文就来说说 `unibest` 都引入了哪些有用的 `uni插件`。下面这个表格描述了各个插件的主要作用。
+
+| 插件名 | 作用 |
+| --- | --- |
+| @dcloudio/vite-plugin-uni | **最核心的 `uni 插件`**，没有它就不能在 vite 项目跑 uniapp，其他所有的 `uni插件` 都需要经通过它的手来编译，所以写法上，都是先写 `UniXXX`，再写 `Uni`，见下文 |
+| @uni-helper/vite-plugin-uni-pages | `uni 插件`，也是 `unibest 灵魂插件`， `route-block` 就是它的功劳，让你可以直接在本文件就能设置页面的路元信息，无需跑去 `pages.json` 配置，同时支持 `pages.config.ts` 编写 `pages.json` |
+| @uni-helper/vite-plugin-uni-layouts | `uni 插件`，支持多种 `layouts` 布局，群友脑洞大开，充分利用这个特性实现平时不容易实现的布局 |
+| @uni-helper/vite-plugin-uni-manifest | `uni 插件`，支持 `manifest.config.ts` 编写 `manifest.json` |
+
+`UniXXX()` 插件都需要在 `uni()` 之前引入，因为最终都需要 `Uni` 来处理所有的代码。如下图： ![vite uni plugin](https://www.unibest.tech/assets/3-1.Cd6FstN8.png)
+
+接下来介绍一下 `uni 插件`，其他 `通用插件` 大家都比较熟悉，不再赘述。
+
+`unibest` 引入了 `uni-helper` 团队的几个重要插件，少了它们 `unibest` 就缺少了灵魂，感谢 `uni-helper` 团队的贡献。 `Uni 插件` 列表如下：
+
+- `vite-plugin-uni-pages`
+
+  - 介绍：为 `Vite` 下的 `uni-app` 提供基于文件系统的路由
+  - 额外：使用 `TypeScript` 来编写 `uni-app` 的 `pages.json`
+  - 访问地址： [@uni-helper/vite-plugin-uni-pages](https://github.com/uni-helper/vite-plugin-uni-pages)
+- `vite-plugin-uni-layouts`
+
+  - 介绍：为 `Vite` 下的 `uni-app` 提供类 `nuxt` 的 `layouts` 系统
+  - 访问地址： [@uni-helper/vite-plugin-uni-layouts](https://github.com/uni-helper/vite-plugin-uni-layouts)
+- `vite-plugin-uni-manifest`
+
+  - 介绍：使用 `TypeScript` 来编写 `uni-app` 的 `manifest.json`
+  - 访问地址： [@uni-helper/vite-plugin-uni-manifest](https://github.com/uni-helper/vite-plugin-uni-manifest)
+
+## vite-plugin-uni-pages [​](https://www.unibest.tech/base/3-plugin\#vite-plugin-uni-pages)
+
+得益于 [@uni-helper/vite-plugin-uni-pages](https://github.com/uni-helper/vite-plugin-uni-pages)，约定式路由（文件路由）的实现轻而易举。
+
+`src/pages` 目录下的每个文件都代表着一个路由。要创建新页面，只需要在这个目录里新增 `.vue` 文件，插件会自动生成对应的 `pages.json` 文件。
+
+`route` 代码块则可以配置页面相关信息，这些信息会自动同步到 `page.json`，无需切换到 `page.json` 进行配置。
+
+> `pages.json` 文件是自动生成的，请不要手动修改，全局的东西请在 `pages.config.ts` 里面配置，页面上的东西请在 `vue` 文件的 `route` 代码块配置，如下图。
+
+vue
+
+```
+<!-- 使用 type="home" 属性设置首页，其他页面不需要设置，默认为page -->
+<!-- 推荐使用json5，更强大，且允许注释 -->
+<route lang="json5" type="home">
+{
+  style: {
+    navigationStyle: 'custom',
+    navigationBarTitleText: '首页',
+  },
+}
+</route>
+<template>
+  <div>
+    <h1>欢迎使用 unibest</h1>
+    <h4>unibest 是最好的 uniapp 开发模板</h4>
+  </div>
+</template>
+```
+
+vue
+
+```
+<route lang="json5">
+{
+  style: {
+    navigationBarTitleText: '关于',
+  },
+}
+</route>
+<template>
+  <view>
+    <view>通过 `/pages/about` 来访问这个页面</view>
+  </view>
+</template>
+```
+
+### 设置首页 [​](https://www.unibest.tech/base/3-plugin\#%E8%AE%BE%E7%BD%AE%E9%A6%96%E9%A1%B5)
+
+通过在 `route-block` 里面配置 `type="home"` 即可，尽量保证一个项目 `只有一个` 这个配置，如果有多个，会按照字母顺序来排列，最终可能不是您想要的效果。
+
+### 设置 pages 过滤和分包 [​](https://www.unibest.tech/base/3-plugin\#%E8%AE%BE%E7%BD%AE-pages-%E8%BF%87%E6%BB%A4%E5%92%8C%E5%88%86%E5%8C%85)
+
+- 过滤：默认 `src/pages` 里面的 `vue` 文件都会生成一个页面，如果不需要生成页面可以对 `vite.config.ts` 中的 `UniPages` 进行 `exclude` 配置。
+
+- 分包：如果需要设置 `分包` 则可以通过 `subPackages` 进行配置，该配置项是个数组，可以配置多个 `分包`，注意分包的目录不能为 `src/pages` 里面的子目录。
+
+
+ts
+
+```
+UniPages({
+  exclude: ['**/components/**/**.*'],
+  subPackages: ['src/pages-sub'], // 是个数组，可以配置多个，但不能为 `src/pages` 里面的子目录
+})
+```
+
+## vite-plugin-uni-layouts [​](https://www.unibest.tech/base/3-plugin\#vite-plugin-uni-layouts)
+
+得益于 [@uni-helper/vite-plugin-uni-layouts](https://github.com/uni-helper/vite-plugin-uni-layouts)，你可以轻松地切换不同的布局。
+
+`src/layouts` 文件夹下的 `vue` 文件都会自动生成一个布局，默认的布局文件名为 `default` ，路径 `src/layouts/default.vue` 。
+
+如果需要修改使用的布局，可以通过 `vue` 文件内 `route` 代码块指定需要的布局，如下示例使用 `demo` 布局。
+
+vue
+
+```
+<route lang="json5">
+{
+  layout: 'demo',
+  style: {
+    navigationBarTitleText: '关于',
+  },
+}
+</route>
+```
+
+vue
+
+```
+<template>
+  <view>
+    <!-- 这里可以写通用的布局，比如导航栏，tabbar等 -->
+    <!-- slot里面装的就是子页面的内容 -->
+    <slot />
+  </view>
+</template>
+```
+
+## vite-plugin-uni-manifest [​](https://www.unibest.tech/base/3-plugin\#vite-plugin-uni-manifest)
+
+得益于 [@uni-helper/vite-plugin-uni-manifest](https://github.com/uni-helper/vite-plugin-uni-manifest)，你可以使用 `TypeScript` 来编写 `manifest.json`。
+
+> `manifest.json` 文件是自动生成的，请不要手动修改，需要配置的内容请在 `manifest.config.ts` 里面配置。
+
+## 总结 [​](https://www.unibest.tech/base/3-plugin\#%E6%80%BB%E7%BB%93)
+
+本文介绍了 `unibest` 引入的几个重要的 `uni插件`。
+
+如果还想了解更多信息，可以去 `uni-helper` [github 仓库](https://github.com/uni-helper) 看看。
+
+## Local SVG Icon Usage
+[Skip to content](https://www.unibest.tech/base/6-svg#VPContent)
+
+On this page
+
+# SVG 篇 [​](https://www.unibest.tech/base/6-svg\#svg-%E7%AF%87)
+
+上一章《五、图标篇》主要介绍了 `线上图标` 的使用，今天带给大家本地 `SVG` 图标的使用。
+
+本地 `SVG` 图标使用方式主要有：
+
+- `image + src` 方式
+
+  - `static目录` 图标
+  - `相对目录` 图标
+  - `线上地址` 图标
+
+> **`图片`** 也是使用上面几种方式。
+
+## `image + src` 方式 [​](https://www.unibest.tech/base/6-svg\#image-src-%E6%96%B9%E5%BC%8F)
+
+根据图片地址不同，分为 2 种： `static目录` 图标 ， `相对目录` 图标。
+
+### 1\. `static目录` 图标 [​](https://www.unibest.tech/base/6-svg\#_1-static%E7%9B%AE%E5%BD%95-%E5%9B%BE%E6%A0%87)
+
+这种方式直接编写代码即可，如下：
+
+html
+
+```
+<image src="/static/svg/demo.svg" mode="scaleToFill" class="h-20 w-20" />
+```
+
+### 2\. `相对目录` 图标 [​](https://www.unibest.tech/base/6-svg\#_2-%E7%9B%B8%E5%AF%B9%E7%9B%AE%E5%BD%95-%E5%9B%BE%E6%A0%87)
+
+这种方式需要先引入，再使用，代码编写如下：
+
+html
+
+```
+<template>
+  <image :src="iconUrl" mode="scaleToFill" class="h-20 w-20" />
+</template>
+
+<script lang="ts" setup>
+  import iconUrl from './demo.svg'
+</script>
+```
+
+### 3\. `线上地址` 图标 [​](https://www.unibest.tech/base/6-svg\#_3-%E7%BA%BF%E4%B8%8A%E5%9C%B0%E5%9D%80-%E5%9B%BE%E6%A0%87)
+
+这种方式直接使用，代码编写如下：
+
+html
+
+```
+<template>
+  <image src="https://xxx.com/demo.svg" mode="scaleToFill" class="h-20 w-20" />
+</template>
+```
+
+## 其他 [​](https://www.unibest.tech/base/6-svg\#%E5%85%B6%E4%BB%96)
+
+> `SvgComponent` 方式 和 `SvgIcon` 方式，仅 `H5端` 适用，感兴趣的可以阅读下
+
+Details
+
+### `SvgComponent` 方式 [​](https://www.unibest.tech/base/6-svg\#svgcomponent-%E6%96%B9%E5%BC%8F)
+
+从 `Web端` 过来的同学都知道 `SvgComponent` 这种方式，只需要引入 `vite-svg-loader` 插件即可，支持 `3种` 方式引入 `svg`: `url`, `raw`, `component`。
+
+- URL
+
+SVGs can be imported as URLs using the `?url` suffix:
+
+js
+
+```
+import iconUrl from './my-icon.svg?url'
+// 'data:image/svg+xml...'
+```
+
+Used in template:
+
+html
+
+```
+<template>
+  <image :src="iconUrl" mode="scaleToFill" class="h-20 w-20" />
+</template>
+```
+
+- Raw
+
+SVGs can be imported as strings using the `?raw` suffix:
+
+js
+
+```
+import iconRaw from './my-icon.svg?raw'
+// '<?xml version="1.0"?>...'
+```
+
+Used in template:
+
+html
+
+```
+<template>{{ iconRaw }}</template>
+```
+
+- Component
+
+SVGs can be explicitly imported as Vue components using the `?component` suffix:
+
+js
+
+```
+import IconComponent from './my-icon.svg?component'
+// <IconComponent />
+```
+
+Used in template:
+
+html
+
+```
+<template>
+  <IconComponent />
+</template>
+```
+
+但是目前经过测试，只有 `url` 的方式所有端可以使用，与上面的 `image + src - 相对目录 图标` 是一个效果。至于 `component` 只有 `H5端生效`，其他端不行。
+
+### `SvgIcon` 方式 [​](https://www.unibest.tech/base/6-svg\#svgicon-%E6%96%B9%E5%BC%8F)
+
+从 `Web端` 过来的同学都知道 `SvgIcon` 这种方式，只需要引入 `vite-plugin-svg-icons` 插件 \+ `vite 配置`，再编写一个通用的 `SvgIcon` 即可，但是同样只有 `H5端生效`，其他端不行。
+
+`vite` 配置如下：
+
+```
+createSvgIconsPlugin({
+  // 指定要缓存的文件夹
+  iconDirs: [path.resolve(process.cwd(), 'src/assets')],
+  // 指定symbolId格式
+  symbolId: 'icon-[dir]-[name]',
+}),
+```
+
+如上，只需要把 `svg` 放到 `src/assets` 目录即可。
+
+`SvgIcon` 代码如下：
+
+html
+
+```
+<template>
+  <svg aria-hidden="true">
+    <use :href="symbolId" :fill="color" />
+  </svg>
+</template>
+
+<script lang="ts" setup name="SvgIcon">
+  const props = withDefaults(
+    defineProps<{
+      prefix?: string
+      name: string
+      color?: string
+    }>(),
+    {
+      prefix: 'icon',
+      name: '',
+      color: '#333',
+    },
+  )
+  const symbolId = computed(() => `#${props.prefix}-${props.name}`)
+</script>
+```
+
+使用方式如下：
+
+html
+
+```
+<!-- src/assets/demo.svg -->
+<SvgIcon name="demo" class="h-20 w-20"></SvgIcon>
+
+<!-- src/assets/dir/demo.svg -->
+<SvgIcon name="dir-demo" class="h-20 w-20"></SvgIcon>
+```
+
+> `SvgComponent` 依赖 `vite-svg-loader` 插件
+>
+> `SvgIcon` 依赖 `vite-plugin-svg-icons` 插件
+
+## 总结 [​](https://www.unibest.tech/base/6-svg\#%E6%80%BB%E7%BB%93)
+
+本地 `svg` 的使用方式，如果要全端适配，那就只能使用 `image + src` 的方式。
+
+> `SvgComponent` 依赖 `vite-svg-loader` 插件
+>
+> `SvgIcon` 依赖 `vite-plugin-svg-icons` 插件
+
+其他 2 种方式 —— `SvgComponent` \+ `SvgIcon` 仅 `h5` 端生效，其他端都不能用，既然不能使用，那就删了，对应的 2 个插件也一起删了，目前 `base` 分支已经删了。
+
+全文完~
+
+## State Management Overview
+[Skip to content](https://www.unibest.tech/base/9-state#VPContent)
+
+On this page
+
+# 状态篇 [​](https://www.unibest.tech/base/9-state\#%E7%8A%B6%E6%80%81%E7%AF%87)
+
+本文主要介绍了全局状态管理 `pinia` 和 简单状态 `ref` \+ `reactive`。
+
+## pinia [​](https://www.unibest.tech/base/9-state\#pinia)
+
+`unibest` 已经内置了 `Pinia` \+ `pinia-plugin-persistedstate`(数据持久化插件)，并提供了开箱即用的示例。
+
+### 兼容性处理 [​](https://www.unibest.tech/base/9-state\#%E5%85%BC%E5%AE%B9%E6%80%A7%E5%A4%84%E7%90%86)
+
+本身 `pinia-plugin-persistedstate` 是不支持 `uniapp` 的，但是 `pinia-plugin-persistedstate` 提供了修改 `storage` 存储 API 的方式（默认是 `localStorage`，是一个 `WEB API`， `非H5端` 不支持），目前 `unibest` 已经处理好了。关键代码如下：
+
+ts
+
+```
+import { createPinia } from 'pinia'
+import { createPersistedState } from 'pinia-plugin-persistedstate' // 数据持久化
+
+const store = createPinia()
+store.use(
+  createPersistedState({
+    storage: {
+      getItem: uni.getStorageSync, // 看这里
+      setItem: uni.setStorageSync, // 看这里
+    },
+  }),
+)
+```
+
+### 定义 `pinia` 全局状态 [​](https://www.unibest.tech/base/9-state\#%E5%AE%9A%E4%B9%89-pinia-%E5%85%A8%E5%B1%80%E7%8A%B6%E6%80%81)
+
+`src/store/xxx.ts` 里面编写代码，如下是 `src/store/count.ts` 文件。
+
+注意 `defineStore` 第三个参数可以设置是否需要持久化，默认不需要。
+
+ts
+
+```
+import { defineStore } from 'pinia'
+import { ref } from 'vue'
+
+export const useCountStore = defineStore(
+  'count',
+  () => {
+    const count = ref(0)
+    const increment = () => {
+      count.value++
+    }
+    const decrement = () => {
+      count.value--
+    }
+    const reset = () => {
+      count.value = 0
+    }
+    return {
+      count,
+      decrement,
+      increment,
+      reset,
+    }
+  },
+  {
+    // 如果需要持久化就写 true, 不需要持久化就写 false（或者去掉这个配置项）
+    persist: true,
+  },
+)
+```
+
+> 请不要随意把数据丢到 `pinia`，能不用就不用。简单状态尽量使用 `ref` 或者 `reactive`。
+
+### 使用 `pinia` 全局状态 [​](https://www.unibest.tech/base/9-state\#%E4%BD%BF%E7%94%A8-pinia-%E5%85%A8%E5%B1%80%E7%8A%B6%E6%80%81)
+
+在 `vue` 文件中就可以使用了，如下是 `src/pages/demo.vue` 文件：
+
+vue
+
+```
+<template>
+  <view class="flex justify-center items-center text-blue-500 mt-4 mb-4">
+    <view class="w-20">Count: {{ countStore.count }}</view>
+    <button class="ml-2 mr-2" @click="countStore.decrement">-1</button>
+    <button class="ml-2 mr-2" @click="countStore.increment">+1</button>
+    <button class="ml-2 mr-2" @click="countStore.reset">重置</button>
+  </view>
+</template>
+
+<script lang="ts" setup>
+import { useCountStore } from '@/store'
+
+const countStore = useCountStore()
+</script>
+```
+
+## 简单状态 [​](https://www.unibest.tech/base/9-state\#%E7%AE%80%E5%8D%95%E7%8A%B6%E6%80%81)
+
+你可以直接使用 `Vue` 提供的 `ref` 或 `reactive` 方法来做简单状态管理。
+
+### ref [​](https://www.unibest.tech/base/9-state\#ref)
+
+如下是 `src/pages/demo/useCount.ts` 文件，定义简单状态。
+
+ts
+
+```
+// 全局状态
+const globalCount = ref(1)
+export function useCount() {
+  // 本地状态
+  const localCount = ref(1)
+  function increment() {
+    globalCount.value++
+    localCount.value++
+  }
+  return {
+    globalCount,
+    localCount,
+    increment,
+  }
+}
+```
+
+如下是 `src/pages/demo/index.vue`，与 `ref` 简单状态文件放到同一个目录下，方便管理。
+
+vue
+
+```
+<script setup lang="ts">
+import useCount from './useCount.ts'
+const { globalCount, localCount, increment } = useCount()
+</script>
+
+<template>
+  <button @click="increment()">
+    {{ globalCount }}
+    {{ localCount }}
+  </button>
+</template>
+```
+
+## reactive [​](https://www.unibest.tech/base/9-state\#reactive)
+
+`reactive` 与 `ref` 类似。
+
+如下是 `src/pages/demo/count.ts` 文件，定义状态。
+
+ts
+
+```
+export const countStore = reactive({
+  count: 0,
+  increment() {
+    this.count++
+  },
+})
+```
+
+如下是 `src/pages/demo/index.vue`，与 `reactive` 简单状态文件放到同一个目录下，方便管理。
+
+vue
+
+```
+<script setup lang="ts">
+import { countStore } from './count.ts'
+</script>
+
+<template>
+  <button @click="countStore.increment()">
+    {{ countStore.count }}
+  </button>
+</template>
+```
+
+## 总结 [​](https://www.unibest.tech/base/9-state\#%E6%80%BB%E7%BB%93)
+
+本文介绍了 `unibest` 里面状态管理的 `2` 种方式： `pinia` 全局状态 和 `ref\reactive` 简单状态，分别演示了如何定义状态和使用状态。
+
+注意需要灵活使用 `pinia` 和 `简单状态`，局部的状态尽量使用 `简单状态` 的方式来处理，减少 `pinia` 里面全局变量的数量。
+
+全文完~
+
+## Iconfont Library
+[Skip to content](https://www.unibest.tech/other/iconfont/iconfont#VPContent)
+
+On this page
+
+## iconfont 图标库 [​](https://www.unibest.tech/other/iconfont/iconfont\#iconfont-%E5%9B%BE%E6%A0%87%E5%BA%93)
+
+`iconfont` 同样有海量免费的图标，同时支持上传自己的图标。公司项目通常会有自己的图标，由专业的 `UI设计师` 设计，这时通常会使用 `iconfont` 方式使用图标。
+
+1. 打开 `阿里巴巴矢量图标库 iconfont`，地址： [https://www.iconfont.cn/，并登录。](https://www.iconfont.cn/%EF%BC%8C%E5%B9%B6%E7%99%BB%E5%BD%95%E3%80%82)
+2. 寻找需要的图标，加入项目，也可以上传自己的图标。
+
+![alt text](https://www.unibest.tech/assets/5-9.DZ2MSubu.png)
+
+![alt text](https://www.unibest.tech/assets/5-10.bJ29tv3u.png)
+
+![alt text](https://www.unibest.tech/assets/5-11.MsJ7W7FS.png)
+
+> 初次接触 `iconfont` 的同学，可能会找不到自己的项目，如下图：资源管理 \-\- 我的项目
+
+![alt text](https://www.unibest.tech/assets/5-12.C_hNJtqo.png)
+
+- 3.图标方式选择，如下图有 `Unicode` `Font class` `Symbol` 三种方式，分别预览和使用如下：
+
+![alt text](https://www.unibest.tech/assets/5-13.DDhOMza-.png)
+
+![alt text](https://www.unibest.tech/assets/5-14.DgbLFpei.png)
+
+![alt text](https://www.unibest.tech/assets/5-15.CrmqLrM6.png)
+
+- `Unicode` 的方式太落后，语义化不明显，不推荐；
+- `Symbol` 的方式太先进（背后原理是生成了 `SVG` 雪碧图），先进到 `小程序` 和 `APP` 都不支持，只能无奈放弃。
+
+> `Symbol` 的方式生成 `svg` 雪碧图，如下所示：
+>
+> ![alt text](https://www.unibest.tech/assets/5-16.DEYSBQG7.png)
+
+- `Font class` 则是我们最合适的选择，有 `Symbol` 一样的语义化（都是 `icon-xxx` 方式），引入和使用也方便（ `Symbol` 是一个 `js` 文件， `Font class` 是一个 `css` 文件）。
+
+3. 点击选中 `Font class` 后再点击 `查看在线连接` 按钮，可以拿到一个 `css` 的链接，如 [//at.alicdn.com/t/c/font\_4032028\_mbcuy517h6.css](https://at.alicdn.com/t/c/font_4032028_mbcuy517h6.css) ，如果期间新加入了图标，记得点击更新链接，会重新生成一个链接，只有最后面一串 hash 有改变，并且旧的链接依然可以访问。
+
+![alt text](https://www.unibest.tech/assets/5-14.DgbLFpei.png)
+
+我们使用的是 `Font class` 的方式，只需要这一个 `css` 链接就行，无需 `下载至本地`，想要本地预览的话才需要 `下载至本地`。
+
+> `iconfont` 有默认的前缀 `icon-`，可以设置为其他的，如我的一个项目设置为 `bap-icon-`，以防跟其他的冲突。
+
+![alt text](https://www.unibest.tech/assets/5-18.BzpASQPS.png)
+
+> 注意 `uniapp` 项目拿到 `css` 链接放到 `index.html` 是不对的，这样做只在 `h5` 中生效， `小程序` 和 `APP` 都不生效，正确的做法是放到代码里面显示引入。下面会讲：
+
+- 4.在 `style/index.scss` 中写上上面的 `css` 链接里面的内容（ `style/index.scss` 已经在 `main.ts` 引入了， `unibest` 模板已经内置），如下
+
+> 注意： `url(//at.alicdn.com)` 里面的路径要改为 `url(https://at.alicdn.com)`，因为 APP 里面 `//` 是文件协议。 —— 设定 `https` 协议
+
+css
+
+```
+@font-face {
+  font-family: iconfont; /* Project id 4032028 */
+  src:
+    url('//at.alicdn.com/t/c/font_4032028_mbcuy517h6.woff2?t=1713685013355') format('woff2'),
+    url('//at.alicdn.com/t/c/font_4032028_mbcuy517h6.woff?t=1713685013355') format('woff'),
+    url('//at.alicdn.com/t/c/font_4032028_mbcuy517h6.ttf?t=1713685013355') format('truetype');
+}
+
+.iconfont {
+  font-family: iconfont !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook::before {
+  content: '\e87d';
+}
+
+.icon-twitter::before {
+  content: '\e646';
+}
+
+.icon-telegram::before {
+  content: '\f245';
+}
+```
+
+5. 编写代码， `<i class="iconfont icon-facebook"></i>`
+
+![alt text](https://www.unibest.tech/assets/5-23.BMlt2kQm.png)
+
+6. 预览， `h5 ` 端正常，APP 端不正常，小程序端看着正常，控制台也会报错，如下图：
+
+![alt text](https://www.unibest.tech/assets/5-22.Bf7o5Cqv.png)
+
+7. 这个怎么处理呢？转成 `base64` 是最快捷的， `iconfont` 本身就支持， `3` 步搞定：
+
+- 7.1 如下图，勾选 `Base64`
+
+![alt text](https://www.unibest.tech/assets/5-21.BL9bWHcY.png)
+
+- 7.2 生成新链接，并得到新的 `css` 代码
+
+
+![alt text](https://www.unibest.tech/assets/5-20.amNKiK4p.png)
+
+- 7.3 引入新代码，刷新界面，小程序不报错了，APP 也正常了！
+
+![alt text](https://www.unibest.tech/assets/5-19.DfWh85ld.png)
+
+## UniBest Resource Links
+[Skip to content](https://www.unibest.tech/other/links/links#VPContent)
+
+On this page
+
+# 相关链接 [​](https://www.unibest.tech/other/links/links\#%E7%9B%B8%E5%85%B3%E9%93%BE%E6%8E%A5)
+
+## Unibest Demo 分支演示地址 [​](https://www.unibest.tech/other/links/links\#unibest-demo-%E5%88%86%E6%94%AF%E6%BC%94%E7%A4%BA%E5%9C%B0%E5%9D%80)
+
+- [演示地址](https://feige996.github.io/hello-unibest/#/)
+- [仓库地址-github](https://github.com/feige996/hello-unibest)
+- [仓库地址-gitee](https://gitee.com/feige996/hello-unibest)
+
+## UI 组件库 [​](https://www.unibest.tech/other/links/links\#ui-%E7%BB%84%E4%BB%B6%E5%BA%93)
+
+- [wot-ui](https://wot-design-uni.cn/) \-\- `五星推荐⭐⭐⭐⭐⭐` [备用地址](https://wot-design-uni.netlify.app/)
+- [uni-ui](https://uniapp.dcloud.net.cn/component/uniui/uni-ui.html)
+- [uv-ui](https://www.uvui.cn/)
+
+## 原子类 CSS [​](https://www.unibest.tech/other/links/links\#%E5%8E%9F%E5%AD%90%E7%B1%BB-css)
+
+- [UnoCSS](https://unocss.dev/) \-\- `五星推荐⭐⭐⭐⭐⭐`
+- [tailwindcss](https://tailwindcss.com/)
+
+## icons [​](https://www.unibest.tech/other/links/links\#icons)
+
+- [icones](https://icones.js.org/) \-\- `五星推荐⭐⭐⭐⭐⭐` used in `UnoCSS Icons`
+- [iconfont](https://www.iconfont.cn/)
+- [IconPark](https://iconpark.oceanengine.com/)
+
+## 优质组件 [​](https://www.unibest.tech/other/links/links\#%E4%BC%98%E8%B4%A8%E7%BB%84%E4%BB%B6)
+
+- [z-paging](https://z-paging.zxlee.cn/) \-\- `五星推荐⭐⭐⭐⭐⭐`
+
+
+> 一个 `uni-app` 分页组件。
+>
+> 全平台兼容，支持自定义下拉刷新、上拉加载更多，支持虚拟列表，支持自动管理空数据图、点击返回顶部，支持聊天分页、本地分页，支持展示最后更新时间，支持国际化等等。
+
+- [mescroll](https://www.mescroll.com/)
+
+
+> 精致的下拉刷新和上拉加载 js 框架，一套代码多端运行，支持 `uni-app`。
+
+
+## uni-app [​](https://www.unibest.tech/other/links/links\#uni-app)
+
+- [uni-app 官网](https://uniapp.dcloud.net.cn/)
+- [uni-app x 官网](https://doc.dcloud.net.cn/uni-app-x/)
+
+## 图表库 [​](https://www.unibest.tech/other/links/links\#%E5%9B%BE%E8%A1%A8%E5%BA%93)
+
+- [ucharts](https://www.ucharts.cn/v2/#/)
+- [lime-echart](https://gitee.com/liangei/lime-echart)
+
+> 其他可以在 `uni-app` 插件市场找： [uniapp chart](https://ext.dcloud.net.cn/search?q=chart)
+
+## vue 相关 [​](https://www.unibest.tech/other/links/links\#vue-%E7%9B%B8%E5%85%B3)
+
+- [Vue](https://cn.vuejs.org/)
+- [Vite](https://cn.vitejs.dev/)
+- [Pinia](https://pinia.vuejs.org/zh/)
+
+## 请求库 [​](https://www.unibest.tech/other/links/links\#%E8%AF%B7%E6%B1%82%E5%BA%93)
+
+- [Alova.js](https://alova.js.org/zh-CN)
+
+## Unibest Quick Start
+[Skip to content](https://www.unibest.tech/base/2-start#VPContent)
+
+On this page
+
+# 快速开始 [​](https://www.unibest.tech/base/2-start\#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)
+
+- 前置依赖
+
+  - **Node.js** \- `>=v18`
+  - **pnpm** \- `>=7.30`（推荐使用 `8.12+`）
+  - **`VSCode`** \- 可选 `WebStrom`
+  - **`HBuilderX`** \- `APP` 的运行和发布还是离不开它
+  - **Vue-Office** \- `v2.1.10`
+
+## 创建项目 [​](https://www.unibest.tech/base/2-start\#%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE)
+
+通过下面的命令可以快速生成项目模板， `pnpm create unibest <项目名称>` ，如果不写 `<项目名称>` 会进入命令行交互模式。
+
+bash
+
+```
+# 如果没有 pnpm，请先安装: npm i -g pnpm
+pnpm create unibest my-project
+```
+
+npm 创建如下(不推荐)
+
+Details
+
+如果使用 `npm`，可能有缓存，需要加上 `@latest` 标识，如果创建失败，请使用 `pnpm` 安装。
+
+bash
+
+```
+npm create unibest my-project
+# 如果提示报错，或者生成的项目版本太旧，请使用下面的命令，增加 @latest 标识
+npm create unibest@latest my-project
+```
+
+实际操作截图如下：
+
+![create project](https://www.unibest.tech/assets/2-1.UVknIGdF.png)
+
+`create-unibest` 在 `v1.10.0` 开始会有版本号，如下：
+
+![alt text](https://www.unibest.tech/assets/2-2.NoahZEd4.png)
+
+![unibest templates](https://oss.laf.run/ukw0y1-site/xmind/unibest%E6%A8%A1%E6%9D%BF.png)
+
+`create unibest` 支持 `-t` 参数选择模板，目前已有两大类 `8` 个模板
+
+- `普通` 模板( `4个` ）：分别是 `base`、 `tabbar`、 `i18n`、 `demo`、 ~~`js`~~
+- `hbx` 模板( `2个` ）：分别是 `hbx-base`、 `hbx-demo`。
+
+不带 `-t` 参数时会默认生成 `base` 模板。
+
+`base` 模板是最基本的模板，更新最及时，推荐使用 `base` 模板创建新项目。其他几个模板也是基于 `base` 模板得到的。 `demo` 模板则作为参考用。
+
+`js` 模板不推荐使用，可以使用 `base` 模板替代，里面已经做了兼容配置，可以直接编写 `js`，原本的 `ts` 文件还能提供部分类型，何乐而不为？
+
+sh
+
+```
+# VS Code 模板
+pnpm create unibest my-project # 默认用 base 模板
+
+pnpm create unibest my-project -t base # 基础模板
+pnpm create unibest my-project -t tabbar # 自定义 tabbar 模板
+pnpm create unibest my-project -t i18n # 多语言模板
+pnpm create unibest my-project -t demo # 所有demo的模板(包括i18n)
+# pnpm create unibest my-project -t js # js 模板
+
+# HBuilderX 模板，方便使用 uniCloud 云开发 (未来可以对接 uni-app x)
+pnpm create unibest my-project -t hbx-base # hbx的base模板
+pnpm create unibest my-project -t hbx-demo # hbx的demo模板，包含所有的demo
+```
+
+> 2024-12-29<周日> 发表了一篇文章： [【unibest】可以去掉hbx模版了，base模板一统天下](https://mp.weixin.qq.com/s/ybunFNkjKfV5yVLOMvqscg?token=1696234630&lang=zh_CN)
+>
+> 就是说 hbx 模板可以退出历史舞台了。
+
+## 项目仓库地址 [​](https://www.unibest.tech/base/2-start\#%E9%A1%B9%E7%9B%AE%E4%BB%93%E5%BA%93%E5%9C%B0%E5%9D%80)
+
+`github` 和 `gitee` 实时同步，代码一致。
+
+### 普通模板： [​](https://www.unibest.tech/base/2-start\#%E6%99%AE%E9%80%9A%E6%A8%A1%E6%9D%BF)
+
+- [https://github.com/feige996/unibest](https://github.com/feige996/unibest)
+- [https://gitee.com/feige996/unibest](https://gitee.com/feige996/unibest)
+
+> `demo` 模板是在 `hello-unibest` 项目中，仓库地址如下：
+
+- [https://github.com/feige996/hello-unibest](https://github.com/feige996/hello-unibest)
+- [https://gitee.com/feige996/hello-unibest](https://gitee.com/feige996/hello-unibest)
+
+### hbx 模板 [​](https://www.unibest.tech/base/2-start\#hbx-%E6%A8%A1%E6%9D%BF)
+
+- [https://github.com/uni-run/unibest-hbx](https://github.com/uni-run/unibest-hbx)
+
+> `hbx` 目前由 `青谷` 大佬维护，微信号： `qingguxixi`， [青谷 github 地址](https://github.com/Xiphin) 。
+
+## 安装、运行 [​](https://www.unibest.tech/base/2-start\#%E5%AE%89%E8%A3%85%E3%80%81%E8%BF%90%E8%A1%8C)
+
+bash
+
+```
+pnpm i
+pnpm dev
+# dev默认运行的是h5，其他平台执行dev:<uni-platform>，如:
+pnpm dev:mp-weixin
+```
+
+`pnpm dev` 之后在浏览器打开 `http://localhost:9000/`。
+
+> 其他平台构建和发布，查看 [运行发布篇](https://www.unibest.tech/base/11-build)。
+
+## 第一次 `commit` [​](https://www.unibest.tech/base/2-start\#%E7%AC%AC%E4%B8%80%E6%AC%A1-commit)
+
+bash
+
+```
+git add .
+git commit -m "feat: init project"
+```
+
+## `v3` 代码块 [​](https://www.unibest.tech/base/2-start\#v3-%E4%BB%A3%E7%A0%81%E5%9D%97)
+
+在 `vue` 文件中，输入 `v3` 按 `tab` 即可快速生成页面模板，可以大大加快页面生成。
+
+> 原理：基于 `VSCode` 代码块生成。
+
+![alt text](https://www.unibest.tech/assets/2-4.op0lUZTT.gif)
+
+## 注意事项 [​](https://www.unibest.tech/base/2-start\#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+
+- 若代码里面自动引入的 `API` 报错，只需要 `pnpm dev` 即可。
+- 若代码运行后， `H5端` 浏览器界面底部没有 `tabbar`， 刷新浏览器或者再次 `pnpm dev` 即可。
+
+## UnoCSS Usage Guide
+[Skip to content](https://www.unibest.tech/base/4-style#VPContent)
+
+On this page
+
+# 样式篇 [​](https://www.unibest.tech/base/4-style\#%E6%A0%B7%E5%BC%8F%E7%AF%87)
+
+本篇主要介绍 `UnoCSS` 的使用，以及如何与 `设计稿尺寸` 对应。
+
+## UnoCSS [​](https://www.unibest.tech/base/4-style\#unocss)
+
+[UnoCSS](https://unocss.dev/) 是按需使用的原子 CSS 引擎，提供了良好的样式支持。
+
+![alt text](https://www.unibest.tech/assets/4-1.DCw-2tV6.png)
+
+在 VSCode 中还可以预览，
+
+![alt text](https://www.unibest.tech/assets/4-2.C8yzf1Vb.png)
+
+![alt text](https://www.unibest.tech/assets/4-3.v7fdjSDS.png)
+
+> 如果原子化 `UnoCSS` 没有预览效果，请安装 `VSCode` 插件 `antfu.unocss`。
+
+如果不记得原子类，可以查 `UnoCSS 的原子类`， [UnoCSS Interactive](https://unocss.dev/interactive/)，如下图 ![alt text](https://www.unibest.tech/assets/4-4.CB7fDlZB.png)
+
+也可以查看 `tailwindcss` 的原子类，更加清晰明了， [链接 \- tailwindcss](https://tailwindcss.com/)，如下图：
+
+![alt text](https://www.unibest.tech/assets/4-5.BOO5kTV6.png)
+
+## 常用的原子类 [​](https://www.unibest.tech/base/4-style\#%E5%B8%B8%E7%94%A8%E7%9A%84%E5%8E%9F%E5%AD%90%E7%B1%BB)
+
+- 宽高内外边距： `w-2`, `h-4`, `px-6`, `mt-8` 等
+- 前景色背景色： `text-green-400`, `bg-green-500`
+- border: `border-2`, `border-solid`, `border-green-600`, `b-r-2` (注意 `border` = `border-1`，就是说边框 `1px` 时，一般简写为 `border` )
+- border-radius: `rounded-full`, `rounded-6`, `rounded-sm` (不是 `br-10`, 也不是 `b-r-10`)
+- line-height: `leading-10` (不是 `l-10`, 也不是 `lh-10`)
+- hover: `hover:text-green-200`, `hover:bg-green-300`, `hover:border-dashed`
+- flex: `flex`, `items-center`, `justify-center`, `flex-1`
+
+## `UnoCSS` 配置 [​](https://www.unibest.tech/base/4-style\#unocss-%E9%85%8D%E7%BD%AE)
+
+下面内容选读：
+
+Details
+
+`unocss.config.ts` 文件内容如下：
+
+ts
+
+```
+// uno.config.ts
+import {
+  type Preset,
+  defineConfig,
+  presetUno,
+  presetAttributify,
+  presetIcons,
+  transformerDirectives,
+  transformerVariantGroup,
+} from 'unocss'
+
+import { presetApplet, presetRemRpx, transformerAttributify } from 'unocss-applet'
+
+// @see https://unocss.dev/presets/legacy-compat
+import { presetLegacyCompat } from '@unocss/preset-legacy-compat'
+
+const isMp = process.env?.UNI_PLATFORM?.startsWith('mp') ?? false
+
+const presets: Preset[] = []
+if (isMp) {
+  // 使用小程序预设
+  presets.push(presetApplet(), presetRemRpx())
+} else {
+  presets.push(
+    // 非小程序用官方预设
+    presetUno(),
+    // 支持css class属性化
+    presetAttributify(),
+  )
+}
+export default defineConfig({
+  presets: [\
+    ...presets,\
+    // 支持图标，需要搭配图标库，eg: @iconify-json/carbon, 使用 `<button class="i-carbon-sun dark:i-carbon-moon" />`\
+    presetIcons({\
+      scale: 1.2,\
+      warn: true,\
+      extraProperties: {\
+        display: 'inline-block',\
+        'vertical-align': 'middle',\
+      },\
+    }),\
+    // 将颜色函数 (rgb()和hsl()) 从空格分隔转换为逗号分隔，更好的兼容性app端，example：\
+    // `rgb(255 0 0)` -> `rgb(255, 0, 0)`\
+    // `rgba(255 0 0 / 0.5)` -> `rgba(255, 0, 0, 0.5)`\
+    presetLegacyCompat({\
+      commaStyleColorFunction: true,\
+    }) as Preset,\
+  ],
+  /**
+   * 自定义快捷语句
+   * @see https://github.com/unocss/unocss#shortcuts
+   */
+  shortcuts: [['center', 'flex justify-center items-center']],
+  transformers: [\
+    // 启用 @apply 功能\
+    transformerDirectives(),\
+    // 启用 () 分组功能\
+    // 支持css class组合，eg: `<div class="hover:(bg-gray-400 font-medium) font-(light mono)">测试 unocss</div>`\
+    transformerVariantGroup(),\
+    // Don't change the following order\
+    transformerAttributify({\
+      // 解决与第三方框架样式冲突问题\
+      prefixedOnly: true,\
+      prefix: 'fg',\
+    }),\
+  ],
+  rules: [\
+    [\
+      'p-safe',\
+      {\
+        padding:\
+          'env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)',\
+      },\
+    ],\
+    ['pt-safe', { 'padding-top': 'env(safe-area-inset-top)' }],\
+    ['pb-safe', { 'padding-bottom': 'env(safe-area-inset-bottom)' }],\
+  ],
+})
+
+/**
+ * 最终这一套组合下来会得到：
+ * mp 里面：mt-4 => margin-top: 32rpx  == 16px
+ * h5 里面：mt-4 => margin-top: 1rem == 16px
+ *
+ * 另外，我们还可以推算出 UnoCSS 单位与设计稿差别4倍。
+ * 375 * 4 = 1500，把设计稿设置为1500，那么设计稿里多少px，unocss就写多少述职。
+ * 举个例子，设计稿显示某元素宽度100px，就写w-100即可。
+ *
+ * 如果是传统方式写样式，则推荐设计稿设置为 750，这样设计稿1px，代码写1rpx。
+ * rpx是响应式的，可以让不同设备的屏幕显示效果保持一致。
+ */
+```
+
+### UnoCSS presets [​](https://www.unibest.tech/base/4-style\#unocss-presets)
+
+主要有 `4` 个：
+
+- `presetUno` —— `UnoCSS` 默认的预设， `H5端` 适用， `非H5端` 不支持，代码已经作区别处理。
+- `presetApplet` 小程序预设，因为默认 `Unocss 预设` 是针对 `WEB` 的，如果不加以处理，会报错，比如小程序不支持 `*`， 没有 `body` 等。该预设同样对 `APP` 生效。
+- `presetIcons`，专门使用 `UnoCSS Icons` 的，需要搭配图标库使用，eg: `@iconify-json/carbon`, 代码编写如 `<button class="i-carbon-sun dark:i-carbon-moon" />`
+- `presetLegacyCompat` 针对低端 `APP` 不认识新的函数颜色的兼容性预设，可以将颜色函数 `rgb()和hsl()` 里面空格分隔转换为逗号分隔，更好的兼容性 `APP` 端，example：
+
+> `rgb(255 0 0)` -\> `rgb(255, 0, 0)`
+>
+> `rgba(255 0 0 / 0.5)` -\> `rgba(255, 0, 0, 0.5)`
+
+
+### UnoCSS shortcuts [​](https://www.unibest.tech/base/4-style\#unocss-shortcuts)
+
+ts
+
+```
+/**
+* 自定义快捷语句
+* @see https://github.com/unocss/unocss#shortcuts
+*/
+shortcuts: [['center', 'flex justify-center items-center']],
+```
+
+可以编写一些常用的快捷类名，如上表示 `center` 就是 `flex justify-center items-center` 的组合，合理的添加快捷类名可以加快样式编写。
+
+## 设计稿尺寸 [​](https://www.unibest.tech/base/4-style\#%E8%AE%BE%E8%AE%A1%E7%A8%BF%E5%B0%BA%E5%AF%B8)
+
+不同的编写方式，需要设置不同的设计稿尺寸，请看下文：
+
+### 1\. 传统编写方式 [​](https://www.unibest.tech/base/4-style\#_1-%E4%BC%A0%E7%BB%9F%E7%BC%96%E5%86%99%E6%96%B9%E5%BC%8F)
+
+如果有设计稿，通常使用传统的编写 `CSS` 的方式，里面的对应尺寸规律如下。以蓝湖为例，假如设计稿宽度为 `750px`，则直接复制样式代码到 css 代码，同时把 `px` 批量替换为 `rpx` 即可。
+
+如果设计稿不是 `750px` 可以调整蓝湖的设置，让设计稿宽度为 `750px`。
+
+> 下面为一段辅助说明文案，从 `uniapp` 官网搬运而来。
+
+`rpx` 是相对于基准宽度的单位，可以根据屏幕宽度进行自适应。 `uni-app` 规定屏幕基准宽度 `750rpx`。
+
+开发者可以通过设计稿基准宽度计算页面元素 `rpx` 值，设计稿 `1px` 与框架样式 `1rpx` 转换公式如下：
+
+`设计稿 1px / 设计稿基准宽度 = 框架样式 1rpx / 750rpx`
+
+换言之，页面元素宽度在 `uni-app` 中的宽度计算公式：
+
+`750 * 元素在设计稿中的宽度 / 设计稿基准宽度`
+
+举例说明：
+
+若设计稿宽度为 `750px`，元素 `A` 在设计稿上的宽度为 `100px`，那么元素 `A` 在 `uni-app` 里面的宽度应该设为： `750 * 100 / 750`，结果为： `100rpx`。
+
+若设计稿宽度为 `640px`，元素 `A` 在设计稿上的宽度为 `100px`，那么元素 `A` 在 `uni-app` 里面的宽度应该设为： `750 * 100 / 640`，结果为： `117rpx`。
+
+若设计稿宽度为 `375px`，元素 `B` 在设计稿上的宽度为 `200px`，那么元素 `B` 在 `uni-app` 里面的宽度应该设为： `750 * 200 / 375`，结果为： `400rpx`。
+
+### 2\. UnoCSS 编写方式 [​](https://www.unibest.tech/base/4-style\#_2-unocss-%E7%BC%96%E5%86%99%E6%96%B9%E5%BC%8F)
+
+经过上一节的 `unocss.config.ts` 配置，可以得到下面的组合：
+
+> mp 里面：mt-4 => margin-top: 32rpx == 16px
+>
+> h5 里面：mt-4 => margin-top: 1rem == 16px
+
+我们还是把设计稿设置为 `750`，设计稿上多少 `px` 的元素，写成多少 `rpx` 即可。
+
+元素 `A` 在设计稿上的宽度为 `100px`，则写 `w-100rpx` 即可。
+
+就是把 `传统编写方式` 中写在 `css` 中的样式搬到了 `UnoCSS` 中。
+
+如果要想用 `w-100` 这种方式，需要做额外的处理（待验证）：
+
+Details
+
+太忙了，有空再写吧。
+
+## 总结 [​](https://www.unibest.tech/base/4-style\#%E6%80%BB%E7%BB%93)
+
+本文主要介绍了 `UnoCSS` 的使用，以及 `unocss.config.ts` 中的一些配置项。
+
+同时说明了设计稿在两种编写方式下的宽度的设置，分别为 `750` 和 `1500`.
+
+最后说明一下， `原子化CSS` 和 `传统方式` 两者不是互斥的，他们是互补的，合适的地方使用合适的方式。
+
+## UniBest FAQ
+[Skip to content](https://www.unibest.tech/base/14-faq#VPContent)
+
+On this page
+
+# 常见问题 [​](https://www.unibest.tech/base/14-faq\#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+
+本篇介绍一些常见的问题，会持续更新。
+
+## 1\. 如何设置/修改首页？ [​](https://www.unibest.tech/base/14-faq\#_1-%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE-%E4%BF%AE%E6%94%B9%E9%A6%96%E9%A1%B5)
+
+`vue` 文件的 `route-block` 块里面设置 `type="home"` 即可，请确保项目里面 `只有一个页面` 是这个配置。
+
+> 注意：如果有多个，会按照字母顺序排列，第一个是首页。（可能不是您的想要的效果。）
+
+## 2\. 修改 `pages.json`、 `manifest.json` 被覆盖问题 [​](https://www.unibest.tech/base/14-faq\#_2-%E4%BF%AE%E6%94%B9-pages-json%E3%80%81manifest-json-%E8%A2%AB%E8%A6%86%E7%9B%96%E9%97%AE%E9%A2%98)
+
+- `pages.json`
+
+本项目引入了 `@uni-helper/vite-plugin-uni-pages`， `pages.json` 文件将会自动生成，手动修改 `pages.json` 将会被覆盖。
+
+全局的东西请在 `pages.config.ts` 里面配置，页面的东西请在 `vue` 文件的 `route-block` 配置。
+
+- `manifest.json`
+
+与上面类似。本项目引入了 `@uni-helper/vite-plugin-uni-manifest`， `manifest.json` 文件将会自动生成，手动修改 `manifest.json` 将会被覆盖。
+
+如需修改，请在 `manifest.config.ts` 里面修改。
+
+## 3\. 怎么分包？ [​](https://www.unibest.tech/base/14-faq\#_3-%E6%80%8E%E4%B9%88%E5%88%86%E5%8C%85)
+
+`vite.config.ts` 里面有一个配置，如下：(其中 `subPackages` 就是用来分包的)
+
+ts
+
+```
+UniPages({
+    exclude: ['**/components/**/**.*'],
+    subPackages: ['src/pages-sub'], // 是个数组，可以配置多个
+}),
+```
+
+## 4\. 首次运行 `pnpm:mp` 时报错。 [​](https://www.unibest.tech/base/14-faq\#_4-%E9%A6%96%E6%AC%A1%E8%BF%90%E8%A1%8C-pnpm-mp-%E6%97%B6%E6%8A%A5%E9%94%99%E3%80%82)
+
+首次运行 `pnpm:mp` 时报错，报错如下：
+
+text
+
+```
+Error: ENOENT: no such file or directory, open '/Users/burtlai/unibest-projects/unibest/src/manifest.json'
+```
+
+首次运行 `非h5端` 时都可能出现上面的问题，需要先执行一下 `pnpm i` 以生成 `src/manifest.json` 文件，后面就不会报错了。
+
+## 5\. `git commit` 报错。 [​](https://www.unibest.tech/base/14-faq\#_5-git-commit-%E6%8A%A5%E9%94%99%E3%80%82)
+
+请看 `commitlint.config.ts` 里面的配置，需要满足对应的设定。根据自己的需要，可以修改 `commitlint.config.ts` 里面的配置。
+
+如果是一次的（比如引入了某个第三方库），可以通过 `--no-verify` 参数跳过校验：
+
+sh
+
+```
+git commit -m "feat: xxx" --no-verify
+```
+
+第三方库还有另外一种处理方式，放到特定的文件夹，然后在 `.eslintignore` 和 `.styleintignore` 里面加上该文件夹。
+
+## 6\. 不想要严格的 `git` 提交检测，怎么办？ [​](https://www.unibest.tech/base/14-faq\#_6-%E4%B8%8D%E6%83%B3%E8%A6%81%E4%B8%A5%E6%A0%BC%E7%9A%84-git-%E6%8F%90%E4%BA%A4%E6%A3%80%E6%B5%8B-%E6%80%8E%E4%B9%88%E5%8A%9E)
+
+直接把 `.husky` 这个文件删掉即可。(或者不删除，只把里面的文件内容注释掉。)
+
+## 7\. `uni-app` 无法使用 `process.env` 变量，怎么办？ [​](https://www.unibest.tech/base/14-faq\#_7-uni-app-%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8-process-env-%E5%8F%98%E9%87%8F-%E6%80%8E%E4%B9%88%E5%8A%9E)
+
+使用 `import.meta.env` 替代！
+
+## 8\. 如何跟随 `uni-app` 官方升级？ [​](https://www.unibest.tech/base/14-faq\#_8-%E5%A6%82%E4%BD%95%E8%B7%9F%E9%9A%8F-uni-app-%E5%AE%98%E6%96%B9%E5%8D%87%E7%BA%A7)
+
+项目下，执行 `npx @dcloudio/uvm@latest` 即可更新。
+
+![alt text](https://www.unibest.tech/assets/14-1.BFlSRing.png)
+
+> 注意，上面的命令会自动安装 `vue-i18n`，可以手动删除（ `pnpm un vue-i18n`)，也可以不理它（没多大影响）。
+
+## 9\. 如何把已经加入 `git` 管理的文件移出 `git` 管理? [​](https://www.unibest.tech/base/14-faq\#_9-%E5%A6%82%E4%BD%95%E6%8A%8A%E5%B7%B2%E7%BB%8F%E5%8A%A0%E5%85%A5-git-%E7%AE%A1%E7%90%86%E7%9A%84%E6%96%87%E4%BB%B6%E7%A7%BB%E5%87%BA-git-%E7%AE%A1%E7%90%86)
+
+- 第一步，先把文件移出 `git` 管理，操作如下：
+
+text
+
+```
+# git rm -r --cached file1 file2  ## 针对某些文件
+# git rm -r --cached dir1 dir2  ## 针对某些文件夹
+# git rm -r --cached .  ## 针对所有文件
+```
+
+- 第二步，提交 `commit` 以正式删除的文件
+
+> 总结： `git rm -r --cached .` \+ `git commit` 即可。
+
+## 10\. 支付宝小程序运行报错。 [​](https://www.unibest.tech/base/14-faq\#_10-%E6%94%AF%E4%BB%98%E5%AE%9D%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99%E3%80%82)
+
+- 默认运行是会报错的，如下图 ![alt text](https://www.unibest.tech/assets/14-2.6jOgsTbQ.png)
+
+- 只需要勾上 `本地开发跳过 ES5 转译` 即可正常运行，如下图 ![alt text](https://www.unibest.tech/assets/14-3.Bv4cEYsU.png)
+
+
+> 总结：勾上 `本地开发跳过 ES5 转译` 即可。
+
+## 11\. 支持 `uni-app x` 吗？ [​](https://www.unibest.tech/base/14-faq\#_11-%E6%94%AF%E6%8C%81-uni-app-x-%E5%90%97)
+
+不支持。但我们一直保持关注。 [uni-app x 传送门](https://doc.dcloud.net.cn/uni-app-x/)
+
+目前 `unibest` 已经有 `hbx` 模板，后续接入 `uni-app x` 会很容易，坐等官方发布。
+
+## 12\. 为啥 `package.json` 中 `vue` 已经 `3.4+` 了，还不支持 `defineModel` ? [​](https://www.unibest.tech/base/14-faq\#_12-%E4%B8%BA%E5%95%A5-package-json-%E4%B8%AD-vue-%E5%B7%B2%E7%BB%8F-3-4-%E4%BA%86-%E8%BF%98%E4%B8%8D%E6%94%AF%E6%8C%81-definemodel)
+
+`uni-app` 官方虽然已经把 `vue` 升级到 `3.4+` 了，但是目前只有 `H5端` 支持 `defineModel`，其他端目前运行报错，详情请看 `uni-app` 官网的发布日志：
+
+[HBuilder X - Release Notes](https://3085868976.hiecheimaetu.com:22443/qn-GO8xCsKgpKDZWIBAkVCUkI1EnGmQUMT4.update.dcloud.net.cn/hbuilderx/changelog/4.14.2024043013.html)
+
+关键截图如下：（仅支持 `H5端`）
+
+![alt text](https://www.unibest.tech/assets/14-4.CKgEslY5.png)
+
+真实运行报错截图如下：（分别是 `小程序` 和 `APP`， 都会报错 ）
+
+![alt text](https://www.unibest.tech/assets/14-5.1rSCAqJe.png)
+
+![alt text](https://www.unibest.tech/assets/14-6.FMf-irAN.png)
+
+## 13\. `base` 模板如何接 `uniCloud` ? [​](https://www.unibest.tech/base/14-faq\#_13-base-%E6%A8%A1%E6%9D%BF%E5%A6%82%E4%BD%95%E6%8E%A5-unicloud)
+
+1. 操作方案：直接在原始项目目录上右键，重新识别项目类型，就可以关联 `uniCloud` 了，然后用原始项目直接运行就可以了，不需要再 `pnpm dev:app` 后导入 `dist/dev/app` 再运行了。
+2. 问：其他模板可以吗？答：其他模板也可以，操作同上。
+3. 我写的文章链接： [【unibest】可以去掉 hbx 模版了，base 模板一统天下](https://mp.weixin.qq.com/s?__biz=MzUxMzAwNzMwNw==&mid=2247484792&idx=1&sn=b6116198f265384e5a51bd2bd95bea90&chksm=f95a8edcce2d07caba60782e17e48d766612c0ad85c019379fd5ac37890e31b6ca7049e670f7&scene=178&cur_album_id=3438500614009782275#rd)
+
+全文完~
+
+## Sponsor Contributions
+[Skip to content](https://www.unibest.tech/advanced/sponsor/sponsor#VPContent)
+
+On this page
+
+# 赞助榜 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#%E8%B5%9E%E5%8A%A9%E6%A6%9C)
+
+感谢所有赞助者！
+
+如需更改展示信息，或者需要展示更详细的信息，请联系我。
+
+如果需要展示产品、博客、友链啥的，也可以联系我，很乐意为您展示。
+
+> 金牌赞助者将额外获得首页产品展示位。
+
+## 200 元 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#_200-%E5%85%83)
+
+- 麦可
+- 程序员云创 [https://www.codecommitter.com/](https://www.codecommitter.com/)
+- 海鲜™ 深圳金济福科技有限公司 [https://www.jinjifu.com/](https://www.jinjifu.com/)
+
+## 50 元 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#_50-%E5%85%83)
+
+- \*皮
+- 暗月隐落 [飞鸟快验 \- 一个通用网络验证后台](https://www.fnkuaiyan.cn/)
+
+## 20 元 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#_20-%E5%85%83)
+
+- \*捷
+- \*度
+- \*恼
+
+## 10-20 元 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#_10-20-%E5%85%83)
+
+- 薛柳(15)
+- 是魔王哒(12)
+
+## 10 元 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#_10-%E5%85%83)
+
+- \*辛
+- \*y
+- \*边
+
+## 5-10 元 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#_5-10-%E5%85%83)
+
+- Leo （9.90）
+- \*熙 （6.66）
+- 阿森纳 （6.66）
+- I am 小萝北 ²º²4 （6.60）
+- SUMMER （5）
+- \*峰 （5）
+- 阿云 （5）
+- nuYoah （5）
+- 许志成 （5）
+- JY\_en\_ke\_hao （5）
+
+## 2 元及以下 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#_2-%E5%85%83%E5%8F%8A%E4%BB%A5%E4%B8%8B)
+
+有 `15` 人，这里不一一列出。（如果希望展示，请联系我）
+
+## 红包打赏 [​](https://www.unibest.tech/advanced/sponsor/sponsor\#%E7%BA%A2%E5%8C%85%E6%89%93%E8%B5%8F)
+
+还有一部分群友是发 `专属红包` 打赏的，这里没有统计，如果需要展示，请联系我。
+
+* * *
+
+> 再次感谢所有赞助者、打赏者！
+
+## UI Library Replacement Guide
+[Skip to content](https://www.unibest.tech/base/7-ui#VPContent)
+
+On this page
+
+# UI 库替换篇 [​](https://www.unibest.tech/base/7-ui\#ui-%E5%BA%93%E6%9B%BF%E6%8D%A2%E7%AF%87)
+
+## 默认 UI 库 [​](https://www.unibest.tech/base/7-ui\#%E9%BB%98%E8%AE%A4-ui-%E5%BA%93)
+
+`unibest` 经过几次更迭，先后使用 `uni-ui`、 `uv-ui` 作为默认 UI 库，目前使用 `wot-ui` 为默认 UI 库。
+
+`wot-ui` 是 `vue3+ts` 编写的全端支持的 UI 库，编码体验比 `uv-ui` 更好；而官方维护的 `uni-ui` 则样式略丑，组件较少，故弃之。
+
+> `wot-ui` 全称 `wot-design-uni`，是 `wot-design` 的 `uniapp` 版本，文档地址： [https://wot-design-uni.netlify.app/](https://wot-design-uni.netlify.app/).
+
+* * *
+
+很多群友反馈有其他 `UI` 库的需求，那么更换 `UI 库` 需要哪些步骤呢？
+
+- 先卸载原有的 `wot-ui` 库
+- 再安装其他 `UI 库`
+
+下面我们简单描述一下更换 2 个主流 `UI库` —— `uni-ui` \+ `uv-ui` 的过程。
+
+> 当然也支持同时存在多个 `UI 库`，有 ES 摇树特性，不必担心打包后的体积。
+
+## 卸载 wot-ui 库 [​](https://www.unibest.tech/base/7-ui\#%E5%8D%B8%E8%BD%BD-wot-ui-%E5%BA%93)
+
+卸载 `wot-ui` 过程如下：
+
+1. 删除 `wot-ui` 库：
+
+sh
+
+```
+  pnpm un wot-design-uni
+```
+
+2. `pages.config.ts` 文件 `easycom.custom` 删除相关配置：
+
+diff
+
+```
+easycom: {
+    autoscan: true,
+    custom: {
+-     '^wd-(.*)': 'wot-design-uni/components/wd-$1/wd-$1.vue',
+    },
+},
+```
+
+3. ` tsconfig.json` 文件 `compilerOptions.types` 删除相关配置：
+
+diff
+
+```
+"types": [\
+    "@dcloudio/types",\
+    "@types/wechat-miniprogram",\
+-   "wot-design-uni/global.d.ts",\
+    "./components.d.ts",\
+    "./global.d.ts"\
+]
+```
+
+## 安装 `uni-ui` 库 [​](https://www.unibest.tech/base/7-ui\#%E5%AE%89%E8%A3%85-uni-ui-%E5%BA%93)
+
+1. 安装 `uni-ui` 库：
+
+sh
+
+```
+pnpm add @dcloudio/uni-ui
+```
+
+2. `pages.config.ts` 文件 `easycom.custom` 添加相关配置：
+
+diff
+
+```
+easycom: {
+  autoscan: true,
+  custom: {
++   '^uni-(.*)': '@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue',
+  },
+},
+```
+
+3. ` tsconfig.json` 文件 `compilerOptions.types` 添加相关配置：
+
+diff
+
+```
+"types": [\
+    "@dcloudio/types",\
+    "@types/wechat-miniprogram",\
++   "@uni-helper/uni-ui-types",\
+    "./components.d.ts",\
+    "./global.d.ts"\
+]
+```
+
+## 安装 `uv-ui` 库 [​](https://www.unibest.tech/base/7-ui\#%E5%AE%89%E8%A3%85-uv-ui-%E5%BA%93)
+
+1. 安装 `uv-ui` 库：
+
+sh
+
+```
+pnpm add @climblee/uv-ui
+```
+
+2. `pages.config.ts` 文件 `easycom.custom` 添加相关配置：
+
+diff
+
+```
+easycom: {
+  autoscan: true,
+  custom: {
++   '^uv-(.*)': '@climblee/uv-ui/components/uv-$1/uv-$1.vue',
+  },
+},
+```
+
+3. ` tsconfig.json` 文件 `compilerOptions.types` 添加相关配置：
+
+diff
+
+```
+"types": [\
+  "@dcloudio/types",\
+  "@types/wechat-miniprogram",\
++ "@ttou/uv-typings/shim",\
++ "@ttou/uv-typings/v2",\
+  "./components.d.ts",\
+  "./global.d.ts"\
+]
+```
+
+> 其他 UI 库的安装类似，不再赘述。
+
+全文完~
+
+## UniBest FAQ
+[Skip to content](https://www.unibest.tech/base/15-faq#VPContent)
+
+On this page
+
+# 常见问题 2 [​](https://www.unibest.tech/base/15-faq\#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-2)
+
+## 1\. `wot-ui` 的 `toast` \+ `message-box` 不生效。 [​](https://www.unibest.tech/base/15-faq\#_1-wot-ui-%E7%9A%84-toast-message-box-%E4%B8%8D%E7%94%9F%E6%95%88%E3%80%82)
+
+1. `layout` 引入 `wot-ui` 的 `toast` \+ `message-box`。
+
+vue
+
+```
+<!-- src/layouts/default.vue -->
+<template>
+  <view>
+    <slot />
+    <wd-toast />
+    <wd-message-box />
+  </view>
+</template>
+```
+
+> `unibest@2.1.0` 开始已经默认引入。
+
+- 2.页面使用
+
+ts
+
+```
+import { useMessage } from 'wot-design-uni'
+
+const message = useMessage()
+const handleClick = () => {
+  // 顺便测试 message 的使用
+  message.show('显示隐藏切换')
+}
+```
+
+## 2\. `uni-app` 插件市场的插件如何使用？ [​](https://www.unibest.tech/base/15-faq\#_2-uni-app-%E6%8F%92%E4%BB%B6%E5%B8%82%E5%9C%BA%E7%9A%84%E6%8F%92%E4%BB%B6%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8)
+
+`hbx` 模板可以直接引入，不在讨论范围内，下面描述的是 `普通模板`。
+
+> 如果该插件支持 `npm` 安装，则直接安装即可，推荐统一使用 `pnpm` 安装。接着根据该插件的文档使用即可。
+
+下面描写的是不支持 `npm` 安装的插件。
+
+这里以 `sp-editor` 富文本插件为例， [插件地址](https://ext.dcloud.net.cn/plugin?id=14726)
+
+1. 下载 `uni-app` 插件市场的代码。（居然要登录+看广告）
+
+![alt text](https://www.unibest.tech/assets/15-1.CWBqx_nT.png)
+
+2. 解压并拷贝到 `unibest` 项目的 `uni_modules` 目录下。
+
+![alt text](https://www.unibest.tech/assets/15-2.DOmgZDOa.png)
+
+3. 整理插件文件夹名称，把 `sp-editor_1.3.7` 改为 `sp-editor`。
+
+> 不改会报错，因为内部代码都是用 `sp-editor` 不带版本号的。会导致查找文件失败。
+
+![alt text](https://www.unibest.tech/assets/15-3.BPAQqWqR.png)
+
+4. 代码直接使用，无需引入组件。（ `uni-app插件` 有一套规范， `uni-app` 会自动查找，跟 `easycom` 类似。）
+
+html
+
+```
+<template>
+  <view class="home">
+    <view class="editor-box">
+      <sp-editor
+        :toolbar-config="{
+          excludeKeys: ['direction', 'date', 'lineHeight', 'letterSpacing', 'listCheck'],
+          iconSize: '18px',
+        }"
+        @init="initEditor"
+        @input="inputOver"
+        @upinImage="upinImage"
+        @overMax="overMax"
+        @addLink="addLink"
+        @exportHtml="exportHtml"
+      ></sp-editor>
+    </view>
+  </view>
+</template>
+```
+
+完整版见下：
+
+Details
+
+vue
+
+```
+<route lang="json5">
+{
+  layout: 'demo',
+  style: { navigationBarTitleText: '富文本' },
+}
+</route>
+
+<template>
+  <view class="home">
+    <view class="editor-box">
+      <sp-editor
+        :toolbar-config="{
+          excludeKeys: ['direction', 'date', 'lineHeight', 'letterSpacing', 'listCheck'],
+          iconSize: '18px',
+        }"
+        @init="initEditor"
+        @input="inputOver"
+        @upinImage="upinImage"
+        @overMax="overMax"
+        @addLink="addLink"
+        @exportHtml="exportHtml"
+      ></sp-editor>
+    </view>
+  </view>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+
+const editorIns = ref(null)
+
+/**
+ * 获取输入内容
+ * @param {Object} e {html,text} 内容的html文本，和text文本
+ */
+function inputOver(e) {
+  // 可以在此处获取到编辑器已编辑的内容
+  console.log('==== inputOver :', e)
+}
+
+/**
+ * 超出最大内容限制
+ * @param {Object} e {html,text} 内容的html文本，和text文本
+ */
+function overMax(e) {
+  // 若设置了最大字数限制，可在此处触发超出限制的回调
+  console.log('==== overMax :', e)
+}
+
+/**
+ * 编辑器就绪
+ * @param {Object} editor 编辑器实例，你可以自定义调用editor实例的方法
+ * @tutorial editor组件 https://uniapp.dcloud.net.cn/component/editor.html#editor-%E7%BB%84%E4%BB%B6
+ * @tutorial 相关api https://uniapp.dcloud.net.cn/api/media/editor-context.html
+ */
+function initEditor(editor) {
+  editorIns.value = editor // 保存编辑器实例
+  // 保存编辑器实例后，可以在此处获取后端数据，并赋值给编辑器初始化内容
+  preRender()
+}
+
+function preRender() {
+  setTimeout(() => {
+    // 异步获取后端数据后，初始化编辑器内容
+    editorIns.value.setContents({
+      html: `<div>&nbsp;&nbsp;猫猫<img src="https://img.yzcdn.cn/vant/cat.jpeg"/></div>`,
+    })
+  }, 1000)
+}
+
+/**
+ * 直接运行示例工程插入图片无法正常显示的看这里
+ * 因为插件默认采用云端存储图片的方式
+ * 以$emit('upinImage', tempFiles, this.editorCtx)的方式回调
+ * @param {Object} tempFiles
+ * @param {Object} editorCtx
+ */
+function upinImage(tempFiles, editorCtx) {
+  /**
+   * 本地临时插入图片预览
+   * 注意：这里仅是示例本地图片预览，因为需要将图片先上传到云端，再将图片插入到编辑器中
+   * 正式开发时，还请将此处注释，并解开下面 使用 uniCloud.uploadFile 上传图片的示例方法 的注释
+   * @tutorial https://uniapp.dcloud.net.cn/api/media/editor-context.html#editorcontext-insertimage
+   */
+  // #ifdef MP-WEIXIN
+  // 注意微信小程序的图片路径是在tempFilePath字段中
+  editorCtx.insertImage({
+    src: tempFiles[0].tempFilePath,
+    width: '80%', // 默认不建议铺满宽度100%，预留一点空隙以便用户编辑
+    success: function () {},
+  })
+  // #endif
+
+  // #ifndef MP-WEIXIN
+  editorCtx.insertImage({
+    src: tempFiles[0].path,
+    width: '80%', // 默认不建议铺满宽度100%，预留一点空隙以便用户编辑
+    success: function () {},
+  })
+  // #endif
+
+  /**
+   * 使用 uniCloud.uploadFile 上传图片的示例方法（可适用多选上传）
+   * 正式开发环境中，请将上面 本地临时插入图片预览 注释后，模仿以下写法
+   */
+  // tempFiles.forEach(async (item) => {
+  //   uni.showLoading({
+  //     title: '上传中请稍后',
+  //     mask: true
+  //   })
+  //   let upfile = await uniCloud.uploadFile({
+  //     filePath: item.path,
+  //     // 同名会导致报错 policy_does_not_allow_file_overwrite
+  //     // cloudPath可由 想要存储的文件夹/文件名 拼接，若不拼文件夹名则默认存储在cloudstorage文件夹中
+  //     cloudPath: `cloudstorage/${item.name}`,
+  //     cloudPathAsRealPath: true
+  //   })
+  //   editorCtx.insertImage({
+  //     src: upfile.fileID,
+  //     width: '80%', // 默认不建议铺满宽度100%，预留一点空隙以便用户编辑
+  //     success: function () {
+  //       uni.hideLoading()
+  //     }
+  //   })
+  // })
+}
+
+/**
+ * 导出 - toolbar需要开启export工具
+ * @param {string} e 导出的html内容
+ */
+function exportHtml(e) {
+  uni.navigateTo({
+    url: '/pages/out/out',
+    success(res) {
+      // 传至导出页面解析即可
+      res.eventChannel.emit('e-transmit-html', {
+        data: e,
+      })
+    },
+  })
+}
+
+/**
+ * 添加超链接
+ * @param {Object} e { text: '链接描述', href: '链接地址' }
+ */
+function addLink(e) {
+  console.log('==== addLink :', e)
+}
+</script>
+```
+
+## 3\. Vue - Official 使用哪个版本？ [​](https://www.unibest.tech/base/15-faq\#_3-vue-official-%E4%BD%BF%E7%94%A8%E5%93%AA%E4%B8%AA%E7%89%88%E6%9C%AC)
+
+~~使用 `1.8x`，而不是 `2.x`~~，否则出现下面这样的问题：
+
+> 最新的 `v2.1.10` 已经可以了，直接安装即可.
+
+![alt text](https://www.unibest.tech/assets/15-4.z9-qF3ov.png)
+
+## 4\. 为啥不用 `vant-ui`？ [​](https://www.unibest.tech/base/15-faq\#_4-%E4%B8%BA%E5%95%A5%E4%B8%8D%E7%94%A8-vant-ui)
+
+`vant-ui` 是 `WEB` 端 `UI 库`，不适用于 `uni-app`。
+
+`uni-app` 没有 `window`, `document` 等 `WEB API`，所以凡是使用 `WEB API` 的 `框架`、 `UI 库` 等都不适用于 `uni-app`。
+
+## 4\. 控制台报错 `[plugin:uni:mp-using-component] Unexpected token S in JSON at position 208`。 [​](https://www.unibest.tech/base/15-faq\#_4-%E6%8E%A7%E5%88%B6%E5%8F%B0%E6%8A%A5%E9%94%99-plugin-uni-mp-using-component-unexpected-token-s-in-json-at-position-208%E3%80%82)
+
+控制台报错如下： ![alt text](https://www.unibest.tech/assets/15-6.DMGXJ6lD.png)
+
+原因是 `uni-pages` 这个插件最新版本 `0.2.22` 有问题，需要回退到 `0.2.20`。
+
+![alt text](https://www.unibest.tech/assets/15-5.DlxGQflG.png)
+
+执行如下命令即可：
+
+```
+pnpm add @uni-helper/vite-plugin-uni-pages@0.2.20
+```
+
+> 因为 `unibest` 在 `2.3.0（含）` 之前没有把 `pnpm-lock.yaml` 加入到版本管理，导致小版还是有细微差别。
+>
+> 在 `2.4.0` 开始已经加入，不会再出现这个问题。
+
+## 5.不会 TypeScript 怎么办 [​](https://www.unibest.tech/base/15-faq\#_5-%E4%B8%8D%E4%BC%9A-typescript-%E6%80%8E%E4%B9%88%E5%8A%9E)
+
+不管个人还是团队、产品或者项目，从长远考虑我们都建议你学习 TypeScript，因为它是未来的趋势，而且大部分框架、库、插件都是用 TypeScript 开发的，足以证明它是构建一款成熟稳健产品的基石。
+
+但考虑到实际情况，会各种客观原因存在，如果必须要用传统 JavaScript 进行开发，你可以在 `tsconfig.json` 里将 `allowJs` 设置为 `true` 即可，框架原有的 TypeScript 代码不会受到影响，并且你也可以在项目中使用 JavaScript 编写代码。
+
+## 6.微信小程序 `INVALID_LOGIN` [​](https://www.unibest.tech/base/15-faq\#_6-%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F-invalid-login)
+
+微信小程序开发进入登录页时，可能导致如下问题：
+
+text
+
+```
+{errMsg: "navigateTo:fail Error: INVALID_LOGIN,
+access_token expired [20250103 17:08:03][touristappid]"}
+```
+
+> 解答：游客模式会出现该错误，微信扫码登录一下就可以了。
+
+## WeChat Group Access
+[Skip to content](https://www.unibest.tech/advanced/wechat/wechat#VPContent)
+
+Return to top
+
+# 微信交流群 [​](https://www.unibest.tech/advanced/wechat/wechat\#%E5%BE%AE%E4%BF%A1%E4%BA%A4%E6%B5%81%E7%BE%A4)
+
+> 作者最近比较忙，本来想隐藏交流群的，但是还是有人通过加我微信，要去交流群，索性还是放开吧。
+
+最近作者工作很忙，没空看群，大家自行交流，望见谅。
+
+> 公司默认是大小周的，我们前端组比较忙，基本上是 `9106`，我所在的项目又额外忙，于是 `9107` 诞生了。等这个项目做完（到明年3月份左右）看能不能好转吧。
+
+再次提醒，千万记得 `先看一遍文档`，可以解决大部分基础疑问。
+
+> 有网友测量过，说要看 `四个小时`，哈哈。
+
+![alt text](https://oss.laf.run/ukw0y1-site/unibest-discussion-group/wechat.jpeg)
+
+> 如果上面的微信群满了，请使用下面的 QQ 群，QQ 群不会过期，长期有效。
+
+①② 群已满，下面是 ③ 群。 ![alt text](https://oss.laf.run/ukw0y1-site/unibest-discussion-group/qq.jpeg)
+
+## Best Practices Overview
+[Skip to content](https://www.unibest.tech/base/20-best#VPContent)
+
+On this page
+
+# 最佳实践 [​](https://www.unibest.tech/base/20-best\#%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5)
+
+新项目使用 `base` 模板，可选 `tabbar` 模板。如果需要多语言，可以选 `i18n` 模板。
+
+同时参考 `demo` 模板，可以直接 `clone` `demo` 项目，用来参考用。
+
+![unibest templates](https://oss.laf.run/ukw0y1-site/xmind/unibest%E6%A8%A1%E6%9D%BF.png)
+
+## 创建项目 [​](https://www.unibest.tech/base/20-best\#%E5%88%9B%E5%BB%BA%E9%A1%B9%E7%9B%AE)
+
+推荐使用 `pnpm` :
+
+sh
+
+```
+# 新项目创建
+pnpm create unibest my-project -t base
+```
+
+## DEMO 模板 [​](https://www.unibest.tech/base/20-best\#demo-%E6%A8%A1%E6%9D%BF)
+
+`demo` 模版-在线地址： [https://feige996.github.io/hello-unibest/](https://feige996.github.io/hello-unibest/)
+
+推荐先全部体验一下 `demo` 的示例
+
+## 必看章节 [​](https://www.unibest.tech/base/20-best\#%E5%BF%85%E7%9C%8B%E7%AB%A0%E8%8A%82)
+
+- [介绍](https://www.unibest.tech/base/1-introduction)
+- [快速开始](https://www.unibest.tech/base/2-start)
+- [uni 插件](https://www.unibest.tech/base/3-plugin)
+- [常见问题](https://www.unibest.tech/base/14-faq)
+- [常见问题 2](https://www.unibest.tech/base/15-faq)
+- [运行发布](https://www.unibest.tech/base/11-build)
+
+## File Resource Optimization
+[Skip to content](https://www.unibest.tech/other/files/files#VPContent)
+
+Return to top
+
+# 文件资源展示优化 [​](https://www.unibest.tech/other/files/files\#%E6%96%87%E4%BB%B6%E8%B5%84%E6%BA%90%E5%B1%95%E7%A4%BA%E4%BC%98%E5%8C%96)
+
+> 本功能由 `⑤群` 群友 `Collapsar` 提供，感谢 `Collapsar` 的贡献。
+
+**未配置前的默认效果：**![alt text](https://www.unibest.tech/assets/image-1.CnST4VzE.png)
+
+**配置后效果：**![alt text](https://www.unibest.tech/assets/image-2.DgMW_pNL.png)
+
+**相关代码：**![alt text](https://www.unibest.tech/assets/image-3.DEON3FVu.png)
+
+> 如果觉得不需要这种查看方式，可以删除 or 注释掉 `.vscode/setting.json` 里面 `explorer.fileNesting.patterns` 配置。
+
+## Mini Program Identifiers
+[Skip to content](https://www.unibest.tech/base/16-terminology#VPContent)
+
+Return to top
+
+# 小程序的标识 [​](https://www.unibest.tech/base/16-terminology\#%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%A0%87%E8%AF%86)
+
+目前有以下 `9` 种小程序标识，对应小程序平台类型如下：
+
+| 类型 | 标识 |
+| --- | --- |
+| 微信小程序 | mp-weixin |
+| 支付宝小程序 | mp-alipay |
+| 抖音小程序 | mp-toutiao |
+| 飞书小程序 | mp-lark |
+| QQ小程序 | mp-qq |
+| 京东小程序 | mp-jd |
+| 小红书小程序 | mp-xhs |
+| 百度小程序 | mp-baidu |
+| 快手小程序 | mp-kuaishou |
+
+> 注意： `mp-toutiao` 就是抖音小程序，其他的都很好辨别。
+
+## Project Rewards
+[Skip to content](https://www.unibest.tech/advanced/rewards/rewards#VPContent)
+
+Return to top
+
+# 🥤 打赏 [​](https://www.unibest.tech/advanced/rewards/rewards\#%F0%9F%A5%A4-%E6%89%93%E8%B5%8F)
+
+如果本项目对你的工作起到了帮助，加快了您的项目进展，解决了您的问题，欢迎 `打赏` ！
+
+![special sponsor appwrite](https://www.unibest.tech/assets/pay-1.-jO6Qrdt.png)![special sponsor appwrite](https://www.unibest.tech/assets/pay-2.CTqEUa0x.png)
+
+## Unibest Framework Overview
+[Skip to content](https://www.unibest.tech/base/1-introduction#VPContent)
+
+On this page
+
+# 简介 [​](https://www.unibest.tech/base/1-introduction\#%E7%AE%80%E4%BB%8B)
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/codercup/unibest?style=flat&logo=github)](https://github.com/codercup/unibest)[![GitHub Repo stars](https://img.shields.io/github/stars/feige996/unibest?style=flat&logo=github)](https://github.com/feige996/unibest)[![star](https://gitee.com/codercup/unibest/badge/star.svg?theme=dark)](https://gitee.com/codercup/unibest)![node version](https://img.shields.io/badge/node-%3E%3D18-green)![pnpm version](https://img.shields.io/badge/pnpm-%3E%3D7.30-green)![GitHub License](https://img.shields.io/github/license/codercup/unibest)
+
+> 上面前 2 个 `star` 分别是旧仓库 `codercup` 和新仓库 `feige996` 的 `star` 数。
+
+`unibest` 是最好的 `uniapp` 开发框架，由 `uniapp` \+ `Vue3` \+ `Ts` \+ `Vite5` \+ `UnoCss` \+ `VSCode`(可选 `webstorm`) \+ `uni插件` \+ `wot-ui`（可选其他 UI 库）构建，集成了多种工具和技术，使用了最新的前端技术栈，无需依靠 `HBuilderX`，通过命令行方式即可运行 `web`、 `小程序` 和 `App`。（注： `App` 还是需要 `HBuilderX`）
+
+`unibest` 内置了 `约定式路由`、 `layout布局`、 `请求封装`、 `请求拦截`、 `登录拦截`、 `UnoCSS`、 `i18n多语言` 等基础功能，提供了 `代码提示`、 `自动格式化`、 `统一配置`、 `代码片段` 等辅助功能，让你编写 `uniapp` 拥有 `best` 体验 （ `unibest 的由来`）。
+
+> `unibest` 目前支持 `H5`、 `小程序` 和 `App`。
+
+⭐⭐⭐⭐⭐
+
+如果 `unibest` 对您有帮助，希望你可以去 **Github** 或者 **Gitee(码云)** 帮我点个 ⭐ ，这将是对我极大的鼓励。
+
+[![star](https://img.shields.io/github/stars/feige996/unibest?style=flat&logo=github)](https://github.com/feige996/unibest)
+
+[![star](https://gitee.com/feige996/unibest/badge/star.svg?theme=dark)](https://gitee.com/feige996/unibest)
+
+## ⭐ Star History [​](https://www.unibest.tech/base/1-introduction\#%E2%AD%90-star-history)
+
+Github Star History 实时地址： [https://star-history.com/#codercup/unibest&Date](https://star-history.com/#codercup/unibest&Date) 。
+
+[![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest&type=Date)](https://star-history.com/#codercup/unibest&Date)
+
+与同类型模板对比，如下图，红色的为 `unibest`，后来居上，遥遥领先。
+
+粉色的新的仓库（ `feige996`），就是目前维护的，旧的 `codercup` 进不去了， `deprecated` 状态，不再维护。
+
+[![Star History Chart](https://api.star-history.com/svg?repos=codercup/unibest,Ares-Chang/uni-vitesse,uni-helper/vitesse-uni-app,feige996/unibest&type=Date)](https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&feige996/unibest&Date)
+
+同类模板对比实时地址： [https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&feige996/unibest&Date](https://star-history.com/#codercup/unibest&Ares-Chang/uni-vitesse&uni-helper/vitesse-uni-app&feige996/unibest&Date)
+
+## 🗂 生成过程 [​](https://www.unibest.tech/base/1-introduction\#%F0%9F%97%82-%E7%94%9F%E6%88%90%E8%BF%87%E7%A8%8B)
+
+`unibest` 由最初始的官方 cli 脚手架模板生成，执行的命令如下：
+
+sh
+
+```
+npx degit dcloudio/uni-preset-vue#vite-ts my-vue3-project
+```
+
+`uniapp` 官方链接： [点击跳转 \- quickstart-cli](https://uniapp.dcloud.net.cn/quickstart-cli.html)
+
+在官方生成的项目基础上，增加了如下内容：
+
+- 前端基础配置六件套
+  - prettier
+  - eslint
+  - stylelint
+  - husky
+  - lint-staged
+  - commitlint
+- UnoCSS
+- UnoCSS Icons
+- Uni 插件
+  - vite-plugin-uni-pages
+  - vite-plugin-uni-layouts
+  - vite-plugin-uni-manifest
+  - vite-plugin-uni-platform
+- UI 库（默认 `wot-ui`，支持替换其他 `UI库`)
+- pinia + pinia-plugin-persistedstate
+- 通用功能
+  - 请求封装
+  - 请求拦截
+  - 路由拦截
+
+## ✨ 特性 [​](https://www.unibest.tech/base/1-introduction\#%E2%9C%A8-%E7%89%B9%E6%80%A7)
+
+- ⚡️ [Vue 3](https://github.com/vuejs/core), [Vite](https://github.com/vitejs/vite), [pnpm](https://pnpm.io/), [esbuild](https://github.com/evanw/esbuild) \- 就是快！
+
+- 🔥 最新语法 \- `<script lang="ts" setup>` 语法
+
+- 🎨 [UnoCSS](https://unocss.dev/) \- 高性能且极具灵活性的即时原子化 CSS 引擎
+
+- 😃 [UnoCSS Icons](https://unocss.dev/presets/icons) & [icones](https://icones.js.org/) \- 海量图标供你选择
+
+- 🍍 [pinia](https://pinia.vuejs.org/) & [pinia-plugin-persistedstate](https://prazdevs.github.io/pinia-plugin-persistedstate/zh/guide/) \- 全端适配的全局数据管理
+
+- 🗂 `uni.request` 请求封装 \- 一键引入，快捷使用
+
+- 📦 `路由拦截` 基础封装，支持扩展，快捷使用，拒绝黑盒
+
+- 📥 [API 自动加载](https://github.com/antfu/unplugin-auto-import) \- 直接使用 Composition API 无需引入
+
+- 🎉 `v3` Code Snippets 加快你的页面生成
+
+- 🦾 `Pritter` & `ESLint` & `Stylelint` & `husky` & `lint-staged` \+ `commitlint` \- 保证代码质量
+
+- 🌈 `TypeScript` 加持，同时又兼容 `js` ，同时满足不同人群
+
+- 💡 `ES6 import` 自动排序， `css 属性` 自动排序，增强编码一致性
+
+- 🖥 `多环境` 配置分开，想则怎么配置就怎么配置
+
+
+## 📦 目录结构 [​](https://www.unibest.tech/base/1-introduction\#%F0%9F%93%A6-%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84)
+
+通过 `tree -I node_modules -I dist -I .git -a > tree.md` 命令生成。
+
+txt
+
+```
+.
+├── .editorconfig
+├── .eslintignore
+├── .eslintrc-auto-import.json
+├── .eslintrc.cjs
+├── .gitignore
+├── .husky
+├── .npmrc
+├── .prettierignore
+├── .prettierrc.cjs
+├── .stylelintignore
+├── .stylelintrc.cjs
+├── .vscode
+├── LICENSE
+├── README.md
+├── commitlint.config.cjs
+├── env
+│   ├── .env
+│   ├── .env.development
+│   ├── .env.production
+│   └── .env.test
+├── favicon.ico
+├── index.html
+├── manifest.config.ts
+├── package.json
+├── pages.config.ts
+├── src
+│   ├── App.vue
+│   ├── components
+│   │   └── .gitkeep
+│   ├── env.d.ts
+│   ├── hooks
+│   │   ├── .gitkeep
+│   │   ├── useRequest.ts
+│   │   └── useUpload.ts
+│   ├── interceptors
+│   │   ├── index.ts
+│   │   ├── prototype.ts
+│   │   ├── request.ts
+│   │   └── route.ts
+│   ├── layouts
+│   │   ├── default.vue
+│   │   └── demo.vue
+│   ├── main.ts
+│   ├── manifest.json
+│   ├── pages
+│   │   ├── about
+│   │   │   ├── about.vue
+│   │   │   └── components
+│   │   │   ├── request.vue
+│   │   │   └── upload.vue
+│   │   └── index
+│   │   └── index.vue
+│   ├── pages-sub
+│   │   └── demo
+│   │   └── index.vue
+│   ├── pages.json
+│   ├── service
+│   │   └── index
+│   │   └── foo.ts
+│   ├── static
+│   │   ├── images
+│   │   │   └── .gitkeep
+│   │   ├── logo.svg
+│   │   └── tabbar
+│   │   ├── example.png
+│   │   ├── exampleHL.png
+│   │   ├── home.png
+│   │   ├── homeHL.png
+│   │   ├── personal.png
+│   │   └── personalHL.png
+│   ├── store
+│   │   ├── index.ts
+│   │   └── user.ts
+│   ├── style
+│   │   └── index.scss
+│   ├── types
+│   │   ├── auto-import.d.ts
+│   │   ├── global.d.ts
+│   │   ├── shims-uni.d.ts
+│   │   └── uni-pages.d.ts
+│   ├── typings.ts
+│   ├── uni.scss
+│   ├── uni_modules
+│   │   └── .gitkeep
+│   └── utils
+│   ├── http.ts
+│   ├── index.ts
+│   └── platform.ts
+├── tsconfig.json
+├── uni-pages.d.ts
+├── uno.config.ts
+└── vite.config.ts
+```
+
